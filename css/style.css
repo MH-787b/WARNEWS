@@ -1,0 +1,319 @@
+/* ============================================================
+   CONTRACKER — Geopolitical Command Centre
+   Design: Minimalist, dark, flat, tactical
+   Palette: Charcoal base, muted fills, single accent
+   ============================================================ */
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Core palette */
+  --bg:              #0d0f12;
+  --surface:         #141820;
+  --country-fill:    #1e2430;
+  --country-stroke:  #2a3040;
+  --country-hover:   #2e3a4e;
+  --water:           #0d0f12;
+  --text-primary:    #c8cdd6;
+  --text-secondary:  #6b7280;
+  --text-muted:      #3e4554;
+  --accent:          #c0392b;       /* Restrained red — tactical accent */
+  --accent-dim:      rgba(192, 57, 43, 0.35);
+  --trade:           #2980b9;       /* Muted blue — trade routes */
+  --panel-bg:        #111418;
+  --border:          #1e2430;
+
+  /* Typography */
+  --font: 'Inter', 'SF Pro Text', -apple-system, BlinkMacSystemFont,
+          'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --mono: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Map Container --- */
+#map-container {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}
+
+#map-container svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* --- Country SVG Paths --- */
+.country {
+  fill: var(--country-fill);
+  stroke: var(--country-stroke);
+  stroke-width: 0.6px;
+  cursor: pointer;
+  transition: fill 0.15s ease;
+}
+
+.country:hover {
+  fill: var(--country-hover);
+}
+
+.country--active {
+  fill: var(--country-fill);
+  stroke: var(--accent);
+  stroke-width: 0.6px;
+}
+
+/* --- Invasion Connection Lines (missile flight path) --- */
+.invasion-line {
+  stroke: var(--accent);
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-dasharray: 8 6;
+  fill: none;
+  opacity: 0;
+  animation:
+    line-fade-in 0.8s ease forwards,
+    line-march 0.6s linear infinite;
+}
+
+@keyframes line-fade-in {
+  to { opacity: 0.65; }
+}
+
+@keyframes line-march {
+  to { stroke-dashoffset: -14; }
+}
+
+/* Faint static arc behind the animated dashes — gives depth */
+.invasion-line-bg {
+  stroke: var(--accent);
+  stroke-width: 1px;
+  stroke-linecap: round;
+  fill: none;
+  opacity: 0;
+  animation: line-fade-in-bg 0.8s ease forwards;
+}
+
+@keyframes line-fade-in-bg {
+  to { opacity: 0.15; }
+}
+
+/* Endpoint nodes at each end of the arc */
+.invasion-node {
+  fill: #c8cdd6;
+  stroke: none;
+  opacity: 0;
+  animation: line-fade-in 0.8s ease forwards;
+}
+
+/* --- Trade Route Lines --- */
+.trade-line {
+  stroke: var(--trade);
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-dasharray: 8 6;
+  fill: none;
+  opacity: 0;
+  animation:
+    trade-fade-in 0.8s ease forwards,
+    trade-march 0.6s linear infinite;
+}
+
+@keyframes trade-fade-in {
+  to { opacity: 0.55; }
+}
+
+@keyframes trade-march {
+  to { stroke-dashoffset: -14; }
+}
+
+.trade-line-bg {
+  stroke: var(--trade);
+  stroke-width: 1px;
+  stroke-linecap: round;
+  fill: none;
+  opacity: 0;
+  animation: trade-fade-in-bg 0.8s ease forwards;
+}
+
+@keyframes trade-fade-in-bg {
+  to { opacity: 0.12; }
+}
+
+.trade-node {
+  fill: #c8cdd6;
+  stroke: none;
+  opacity: 0;
+  animation: trade-fade-in 0.8s ease forwards;
+}
+
+/* --- Floating Country Label --- */
+.country-label {
+  position: fixed;
+  z-index: 100;
+  pointer-events: none;
+  padding: 4px 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+
+.country-label--visible {
+  opacity: 1;
+}
+
+/* --- HUD Header --- */
+.hud-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  padding: 20px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.hud-title {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--text-primary);
+}
+
+.hud-subtitle {
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+/* --- Right-Side Event Panel --- */
+.event-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+  width: 380px;
+  max-width: 90vw;
+  background: var(--panel-bg);
+  border-left: 1px solid var(--border);
+  padding: 32px 28px;
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.25s ease;
+}
+
+.event-panel--open {
+  transform: translateX(0);
+}
+
+.panel-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+}
+
+.panel-close:hover {
+  color: var(--text-primary);
+}
+
+.panel-country-name {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin-bottom: 24px;
+  padding-right: 32px;
+}
+
+.panel-events {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* --- Individual Event Card --- */
+.event-card {
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.event-card__type {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.event-card__headline {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.event-card__timestamp {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+}
+
+/* --- No Events State --- */
+.panel-no-events {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* --- Scrollbar (Webkit) --- */
+.event-panel::-webkit-scrollbar {
+  width: 4px;
+}
+
+.event-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.event-panel::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
