@@ -85,6 +85,25 @@ const EventStore = (() => {
     low:      ['trade', 'talks', 'agreement', 'summit', 'diplomat']
   };
 
+  // ---- Known active conflict/trade pairs ----
+  // These ensure arc lines always appear on the map, even when
+  // live headlines don't mention two countries in the same article.
+  // Update these periodically to reflect current geopolitics.
+
+  const KNOWN_PAIRS = [
+    { type: 'invasion',              country: 'RUS', target: 'UKR', severity: 'critical', headline: 'Ongoing Russia–Ukraine armed conflict' },
+    { type: 'military_mobilisation', country: 'ISR', target: 'PSE', severity: 'critical', headline: 'Israel–Palestine military operations continue' },
+    { type: 'military_mobilisation', country: 'ISR', target: 'LBN', severity: 'high',     headline: 'Israel–Lebanon cross-border military tensions' },
+    { type: 'military_mobilisation', country: 'IRN', target: 'ISR', severity: 'high',     headline: 'Iran–Israel strategic military confrontation' },
+    { type: 'military_mobilisation', country: 'CHN', target: 'TWN', severity: 'high',     headline: 'China–Taiwan strait military posturing' },
+    { type: 'invasion',              country: 'ETH', target: 'ERI', severity: 'high',     headline: 'Ethiopia–Eritrea border conflict zone' },
+    { type: 'military_mobilisation', country: 'PRK', target: 'KOR', severity: 'medium',   headline: 'North Korea–South Korea military standoff' },
+    { type: 'military_mobilisation', country: 'SDN', target: 'SSD', severity: 'high',     headline: 'Sudan–South Sudan armed conflict' },
+    { type: 'trade',                 country: 'CHN', target: 'USA', severity: 'medium',   headline: 'US–China trade tensions and tariff escalation' },
+    { type: 'trade',                 country: 'DEU', target: 'NOR', severity: 'low',      headline: 'Germany–Norway energy corridor partnership' },
+    { type: 'trade',                 country: 'JPN', target: 'USA', severity: 'low',      headline: 'Japan–US semiconductor supply chain agreement' },
+  ];
+
   // ---- Mock data (fallback when API unavailable) ----
 
   const MOCK_EVENTS = [
@@ -257,7 +276,9 @@ const EventStore = (() => {
 
     return unique
       .map((article, i) => {
-        const text = (article.title || '') + ' ' + (article.description || '');
+        const title = article.title || '';
+        const desc = article.description || '';
+        const text = title + ' ' + desc;
 
         // Try the API's country field first, then parse from text
         let country = null;
@@ -269,13 +290,22 @@ const EventStore = (() => {
         // Skip articles where we can't identify a country
         if (!country) return null;
 
+        // Try harder to find a target: check title, then description separately
+        let target = extractTarget(text, country);
+        if (!target && desc) target = extractTarget(desc, country);
+
+        // Also check if API provides multiple countries
+        if (!target && article.country && article.country.length > 1) {
+          const second = COUNTRY_TO_ISO[article.country[1].toLowerCase()] || null;
+          if (second && second !== country) target = second;
+        }
+
         const type = classifyType(text);
-        const target = extractTarget(text, country);
 
         return {
           id: article.article_id || `live-${i}`,
           type,
-          headline: article.title || 'Untitled',
+          headline: title || 'Untitled',
           country,
           target,
           timestamp: article.pubDate || new Date().toISOString(),
@@ -286,22 +316,47 @@ const EventStore = (() => {
   }
 
   /**
+   * Merge known conflict/trade pairs into event list.
+   * Avoids duplicates: if live data already has an event linking the
+   * same country→target pair, the known pair is skipped.
+   */
+  function mergeKnownPairs(events) {
+    const existingPairs = new Set(
+      events
+        .filter(e => e.target)
+        .map(e => `${e.country}-${e.target}`)
+    );
+
+    const extras = KNOWN_PAIRS
+      .filter(kp => !existingPairs.has(`${kp.country}-${kp.target}`))
+      .map((kp, i) => ({
+        ...kp,
+        id: `known-${i}`,
+        timestamp: new Date().toISOString()
+      }));
+
+    return [...events, ...extras];
+  }
+
+  /**
    * Fetch events — tries live API first, falls back to mock data.
+   * Always merges known conflict/trade pairs so arc lines appear.
    * Console logs the data source so you can confirm what's active.
    */
   async function fetchEvents() {
     if (!NEWSDATA_API_KEY) {
       console.log('[CONTRACKER] No API key set — using mock data');
-      return MOCK_EVENTS;
+      return mergeKnownPairs(MOCK_EVENTS);
     }
 
     try {
       const events = await fetchLiveEvents();
       console.log(`[CONTRACKER] Loaded ${events.length} live events from NewsData.io`);
-      return events.length > 0 ? events : MOCK_EVENTS;
+      const base = events.length > 0 ? events : MOCK_EVENTS;
+      return mergeKnownPairs(base);
     } catch (err) {
       console.warn('[CONTRACKER] API error, falling back to mock data:', err.message);
-      return MOCK_EVENTS;
+      return mergeKnownPairs(MOCK_EVENTS);
     }
   }
 
