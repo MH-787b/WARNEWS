@@ -25,8 +25,7 @@ const EventStore = (() => {
   // ============================================================
   // PASTE YOUR FREE API KEY HERE (from https://newsdata.io)
   // ============================================================
-  const NEWSDATA_API_KEY = '';
-   pub_18da075baa734ed782796be5e5fb50fb
+  const NEWSDATA_API_KEY = 'pub_18da075baa734ed782796be5e5fb50fb';
   // ============================================================
 
   // ---- Country name → ISO alpha-3 mapping for extraction ----
