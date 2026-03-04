@@ -277,7 +277,7 @@ const MapRenderer = (() => {
    * @param {Array} events — political events from EventStore
    */
   function drawPins(events) {
-    _invasionLayer.selectAll('.pin-marker, .pin-dot').remove();
+    _invasionLayer.selectAll('.pin-marker, .pin-dot, .pin-pulse').remove();
 
     // Deduplicate by country so we don't stack pins
     const seen = new Set();
@@ -288,8 +288,15 @@ const MapRenderer = (() => {
       const pos = getCountryCentroid(evt.country);
       if (!pos) return;
 
+      // Pulsing ring (behind everything)
+      _invasionLayer.append('circle')
+        .attr('class', 'pin-pulse')
+        .attr('cx', pos[0])
+        .attr('cy', pos[1])
+        .attr('r', 4);
+
       // Diamond shape pin marker
-      const s = 5; // half-size
+      const s = 8; // half-size
       const diamond = `M ${pos[0]},${pos[1] - s} L ${pos[0] + s},${pos[1]} L ${pos[0]},${pos[1] + s} L ${pos[0] - s},${pos[1]} Z`;
 
       _invasionLayer.append('path')
@@ -301,7 +308,7 @@ const MapRenderer = (() => {
         .attr('class', 'pin-dot')
         .attr('cx', pos[0])
         .attr('cy', pos[1])
-        .attr('r', 2);
+        .attr('r', 3);
     });
   }
 

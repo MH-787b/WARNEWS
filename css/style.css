@@ -164,7 +164,7 @@ html, body {
 .pin-marker {
   fill: none;
   stroke: #d4a017;
-  stroke-width: 1.5px;
+  stroke-width: 2px;
   opacity: 0;
   animation: pin-fade-in 0.6s ease forwards;
 }
@@ -176,8 +176,21 @@ html, body {
   animation: pin-fade-in 0.6s ease forwards;
 }
 
+.pin-pulse {
+  fill: none;
+  stroke: #d4a017;
+  stroke-width: 1px;
+  opacity: 0;
+  animation: pin-pulse-ring 2s ease-out infinite;
+}
+
 @keyframes pin-fade-in {
-  to { opacity: 0.8; }
+  to { opacity: 0.85; }
+}
+
+@keyframes pin-pulse-ring {
+  0%   { r: 4; opacity: 0.6; }
+  100% { r: 16; opacity: 0; }
 }
 
 /* --- Floating Country Label --- */
