@@ -24,6 +24,13 @@
   <header class="hud-header">
     <span class="hud-title">CONTRACKER</span>
     <span class="hud-subtitle">GEOPOLITICAL MONITORING SYSTEM</span>
+
+    <!-- Prediction mode toggle -->
+    <div class="prediction-toggle" id="prediction-toggle">
+      <button class="prediction-btn prediction-btn--conflict" id="pred-conflict" data-type="conflict">CONFLICT</button>
+      <button class="prediction-btn prediction-btn--trade" id="pred-trade" data-type="trade">TRADE</button>
+    </div>
+    <span class="prediction-status" id="prediction-status"></span>
   </header>
 
   <!-- D3.js + TopoJSON client — needed for SVG map projection + zoom -->

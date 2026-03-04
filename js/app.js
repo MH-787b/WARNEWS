@@ -69,11 +69,62 @@
 
   // Close panel on Escape
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closePanel();
+    if (e.key === 'Escape') {
+      if (_predMode) { exitPredictionMode(); return; }
+      closePanel();
+    }
   });
 
+  // ---- Prediction mode ----
+
+  let _predMode = null;          // 'conflict' | 'trade' | null
+  let _predFrom = null;          // ISO alpha-3 of first selected country
+  let _predictions = [];         // [{ from, to, type }]
+
+  const predBtnConflict = document.getElementById('pred-conflict');
+  const predBtnTrade    = document.getElementById('pred-trade');
+  const predStatus      = document.getElementById('prediction-status');
+
+  function setPredictionMode(type) {
+    if (_predMode === type) { exitPredictionMode(); return; }
+    _predMode = type;
+    _predFrom = null;
+    predBtnConflict.classList.toggle('active', type === 'conflict');
+    predBtnTrade.classList.toggle('active', type === 'trade');
+    predStatus.textContent = 'CLICK ORIGIN COUNTRY';
+  }
+
+  function exitPredictionMode() {
+    _predMode = null;
+    _predFrom = null;
+    predBtnConflict.classList.remove('active');
+    predBtnTrade.classList.remove('active');
+    predStatus.textContent = '';
+  }
+
+  predBtnConflict.addEventListener('click', () => setPredictionMode('conflict'));
+  predBtnTrade.addEventListener('click', () => setPredictionMode('trade'));
+
+  function handleCountryClick(iso3, countryName) {
+    if (!_predMode) {
+      openPanel(iso3, countryName);
+      return;
+    }
+
+    if (!_predFrom) {
+      _predFrom = iso3;
+      predStatus.textContent = 'CLICK TARGET COUNTRY';
+    } else {
+      if (iso3 === _predFrom) return; // can't predict self
+      _predictions.push({ from: _predFrom, to: iso3, type: _predMode });
+      MapRenderer.drawPredictionLine(_predFrom, iso3, _predMode);
+      _predFrom = null;
+      predStatus.textContent = 'CLICK ORIGIN COUNTRY';
+    }
+  }
+
   // ---- Initialise map ----
-  await MapRenderer.init('#map-container', openPanel);
+  await MapRenderer.init('#map-container', handleCountryClick);
 
   // ---- Load events and render overlays ----
 

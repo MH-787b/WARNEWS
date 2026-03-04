@@ -399,3 +399,82 @@ html, body {
 .event-panel::-webkit-scrollbar-thumb {
   background: var(--border);
 }
+
+/* --- Prediction Mode Toggle --- */
+.prediction-toggle {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+  pointer-events: auto;
+}
+
+.prediction-btn {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.prediction-btn:hover {
+  color: var(--text-primary);
+  border-color: var(--text-secondary);
+}
+
+.prediction-btn--conflict.active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.prediction-btn--trade.active {
+  color: var(--trade);
+  border-color: var(--trade);
+  background: rgba(41, 128, 185, 0.2);
+}
+
+.prediction-status {
+  display: block;
+  margin-top: 6px;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  pointer-events: none;
+  min-height: 14px;
+}
+
+/* --- Prediction Lines (solid, user-drawn) --- */
+.prediction-line {
+  stroke: var(--accent);
+  stroke-width: 2px;
+  stroke-linecap: round;
+  fill: none;
+  opacity: 0;
+  animation: pred-fade-in 0.4s ease forwards;
+}
+
+.prediction-line--trade {
+  stroke: var(--trade);
+}
+
+@keyframes pred-fade-in {
+  to { opacity: 0.6; }
+}
+
+.prediction-node {
+  fill: var(--accent);
+  stroke: none;
+  opacity: 0;
+  animation: pred-fade-in 0.4s ease forwards;
+}
+
+.prediction-node--trade {
+  fill: var(--trade);
+}

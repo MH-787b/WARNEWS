@@ -79,9 +79,10 @@ const MapRenderer = (() => {
 
     _path = d3.geoPath().projection(_projection);
 
-    // Zoom behaviour
+    // Zoom behaviour — LMB or middle-mouse drag to pan, scroll to zoom
     _zoom = d3.zoom()
       .scaleExtent([1, 12])
+      .filter(event => !event.ctrlKey && (event.button === 0 || event.button === 1))
       .on('zoom', (event) => {
         _g.attr('transform', event.transform);
       });
@@ -91,6 +92,7 @@ const MapRenderer = (() => {
       .append('svg')
       .attr('width', width)
       .attr('height', height)
+      .on('mousedown', event => { if (event.button === 1) event.preventDefault(); })
       .call(_zoom);
 
     _g = _svg.append('g');
@@ -411,12 +413,57 @@ const MapRenderer = (() => {
     return String(featureId).padStart(3, '0') === paddedKey;
   }
 
+  // ---- Prediction lines (user-drawn, solid arcs) ----
+
+  /**
+   * Draw a single solid prediction arc between two countries.
+   * @param {string} fromIso — ISO alpha-3 of origin country
+   * @param {string} toIso — ISO alpha-3 of target country
+   * @param {string} type — 'conflict' or 'trade'
+   */
+  function drawPredictionLine(fromIso, toIso, type) {
+    const from = getCountryCentroid(fromIso);
+    const to = getCountryCentroid(toIso);
+    if (!from || !to) return;
+
+    const mid = [(from[0] + to[0]) / 2, (from[1] + to[1]) / 2];
+    const dx = to[0] - from[0];
+    const dy = to[1] - from[1];
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    const arcHeight = Math.max(dist * 0.25, 30);
+    const cp = [mid[0], mid[1] - arcHeight];
+    const pathData = `M ${from[0]},${from[1]} Q ${cp[0]},${cp[1]} ${to[0]},${to[1]}`;
+
+    const isTrade = type === 'trade';
+    const lineCls = 'prediction-line' + (isTrade ? ' prediction-line--trade' : '');
+    const nodeCls = 'prediction-node' + (isTrade ? ' prediction-node--trade' : '');
+
+    _invasionLayer.append('path')
+      .attr('class', lineCls)
+      .attr('d', pathData);
+
+    _invasionLayer.append('circle')
+      .attr('class', nodeCls)
+      .attr('cx', from[0]).attr('cy', from[1]).attr('r', 3);
+
+    _invasionLayer.append('circle')
+      .attr('class', nodeCls)
+      .attr('cx', to[0]).attr('cy', to[1]).attr('r', 3);
+  }
+
+  /** Remove all user-drawn prediction lines */
+  function clearPredictionLines() {
+    _invasionLayer.selectAll('.prediction-line, .prediction-node').remove();
+  }
+
   return {
     init,
     drawInvasionLines,
     drawTradeLines,
     drawPins,
     highlightActiveCountries,
-    clearSelection
+    clearSelection,
+    drawPredictionLine,
+    clearPredictionLines
   };
 })();
