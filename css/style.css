@@ -305,6 +305,13 @@ html, body {
   border: 1px solid var(--border);
 }
 
+.event-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
 .event-card__type {
   display: inline-block;
   font-family: var(--mono);
@@ -313,7 +320,27 @@ html, body {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 8px;
+}
+
+.event-card__indicator {
+  font-family: var(--mono);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.event-card--political .event-card__indicator {
+  color: #d4a017;
+}
+
+.event-card--trade .event-card__indicator {
+  color: var(--trade);
+}
+
+.event-card:not(.event-card--political):not(.event-card--trade) .event-card__indicator {
+  color: var(--accent);
 }
 
 /* Political events — amber to match map pins */

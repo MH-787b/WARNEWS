@@ -42,11 +42,14 @@
           + (isPolitical ? ' event-card--political' : '')
           + (isTrade ? ' event-card--trade' : '');
 
-        // Icon prefix for event category
-        const icon = isPolitical ? '\u25C7 ' : isTrade ? '\u25CB ' : '\u25CF ';
+        // Map indicator label
+        const indicator = isPolitical ? '\u25C7 PIN' : isTrade ? '\u2014 ROUTE' : '\u2014 ARC';
 
         card.innerHTML = `
-          <span class="event-card__type">${icon}${EventStore.formatType(evt.type)}</span>
+          <div class="event-card__header">
+            <span class="event-card__type">${EventStore.formatType(evt.type)}</span>
+            <span class="event-card__indicator">${indicator}</span>
+          </div>
           <p class="event-card__headline">${escapeHtml(evt.headline)}</p>
           <span class="event-card__timestamp">${EventStore.formatTimestamp(evt.timestamp)}</span>
         `;
