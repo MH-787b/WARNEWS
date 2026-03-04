@@ -35,9 +35,18 @@
     } else {
       events.forEach(evt => {
         const card = document.createElement('div');
-        card.className = 'event-card';
+        // Add modifier class based on event category
+        const isPolitical = evt.type === 'leadership_change' || evt.type === 'diplomacy';
+        const isTrade = evt.type === 'trade';
+        card.className = 'event-card'
+          + (isPolitical ? ' event-card--political' : '')
+          + (isTrade ? ' event-card--trade' : '');
+
+        // Icon prefix for event category
+        const icon = isPolitical ? '\u25C7 ' : isTrade ? '\u25CB ' : '\u25CF ';
+
         card.innerHTML = `
-          <span class="event-card__type">${EventStore.formatType(evt.type)}</span>
+          <span class="event-card__type">${icon}${EventStore.formatType(evt.type)}</span>
           <p class="event-card__headline">${escapeHtml(evt.headline)}</p>
           <span class="event-card__timestamp">${EventStore.formatTimestamp(evt.timestamp)}</span>
         `;

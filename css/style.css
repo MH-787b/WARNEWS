@@ -316,6 +316,27 @@ html, body {
   margin-bottom: 8px;
 }
 
+/* Political events — amber to match map pins */
+.event-card--political {
+  border-left: 3px solid #d4a017;
+}
+.event-card--political .event-card__type {
+  color: #d4a017;
+}
+
+/* Trade events — blue to match map lines */
+.event-card--trade {
+  border-left: 3px solid var(--trade);
+}
+.event-card--trade .event-card__type {
+  color: var(--trade);
+}
+
+/* Conflict events — red (default) */
+.event-card:not(.event-card--political):not(.event-card--trade) {
+  border-left: 3px solid var(--accent);
+}
+
 .event-card__headline {
   font-size: 13px;
   font-weight: 500;
