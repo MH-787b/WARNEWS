@@ -100,6 +100,13 @@ const KNOWN_PAIRS = [
   { type: 'trade',                 country: 'USA', target: 'RUS', severity: 'medium',   headline: 'US-led economic sanctions on Russia' },
   { type: 'trade',                 country: 'DEU', target: 'NOR', severity: 'low',      headline: 'Germany\u2013Norway energy corridor partnership' },
   { type: 'trade',                 country: 'JPN', target: 'USA', severity: 'low',      headline: 'Japan\u2013US semiconductor supply chain agreement' },
+  { type: 'trade',                 country: 'IND', target: 'RUS', severity: 'medium',   headline: 'India\u2013Russia oil and energy trade partnership' },
+  { type: 'trade',                 country: 'AUS', target: 'CHN', severity: 'medium',   headline: 'Australia\u2013China trade disputes over critical minerals' },
+  { type: 'trade',                 country: 'GBR', target: 'FRA', severity: 'low',      headline: 'UK\u2013EU post-Brexit trade friction' },
+  { type: 'trade',                 country: 'KOR', target: 'JPN', severity: 'low',      headline: 'South Korea\u2013Japan semiconductor export controls' },
+  { type: 'trade',                 country: 'BRA', target: 'CHN', severity: 'low',      headline: 'Brazil\u2013China commodity export corridor' },
+  { type: 'trade',                 country: 'SAU', target: 'IND', severity: 'low',      headline: 'Saudi Arabia\u2013India oil supply agreement' },
+  { type: 'trade',                 country: 'TUR', target: 'RUS', severity: 'medium',   headline: 'Turkey\u2013Russia energy and trade corridor' },
 ];
 
 // ---- NLP helpers ----
