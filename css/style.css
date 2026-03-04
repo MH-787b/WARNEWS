@@ -347,7 +347,8 @@ html, body {
 .event-card--political {
   border-left: 3px solid #d4a017;
 }
-.event-card--political .event-card__type {
+.event-card--political .event-card__type,
+.event-card--political .event-card__headline {
   color: #d4a017;
 }
 
