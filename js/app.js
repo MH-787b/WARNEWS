@@ -77,9 +77,11 @@
    * Or use EventStore.load() which handles fetching internally.
    */
   function loadEvents(events) {
-    // Draw invasion connection lines (red)
-    const invasions = events.filter(e => e.type === 'invasion' && e.target);
-    MapRenderer.drawInvasionLines(invasions);
+    // Draw conflict connection lines (red) — invasion + military_mobilisation
+    const conflicts = events.filter(e =>
+      (e.type === 'invasion' || e.type === 'military_mobilisation') && e.target
+    );
+    MapRenderer.drawInvasionLines(conflicts);
 
     // Draw trade route lines (blue)
     const trades = events.filter(e => e.type === 'trade' && e.target);
