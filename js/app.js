@@ -87,6 +87,13 @@
     const trades = events.filter(e => e.type === 'trade' && e.target);
     MapRenderer.drawTradeLines(trades);
 
+    // Draw pins for political events (only live data, not known pairs)
+    const political = events.filter(e =>
+      (e.type === 'leadership_change' || e.type === 'diplomacy') &&
+      !String(e.id).startsWith('known-')
+    );
+    MapRenderer.drawPins(political);
+
     // Highlight countries with active events
     const activeCodes = new Set();
     events.forEach(e => {

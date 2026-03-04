@@ -272,6 +272,40 @@ const MapRenderer = (() => {
   }
 
   /**
+   * Draw pin markers on countries with political events
+   * (leadership changes, diplomacy, etc.)
+   * @param {Array} events — political events from EventStore
+   */
+  function drawPins(events) {
+    _invasionLayer.selectAll('.pin-marker, .pin-dot').remove();
+
+    // Deduplicate by country so we don't stack pins
+    const seen = new Set();
+    events.forEach(evt => {
+      if (seen.has(evt.country)) return;
+      seen.add(evt.country);
+
+      const pos = getCountryCentroid(evt.country);
+      if (!pos) return;
+
+      // Diamond shape pin marker
+      const s = 5; // half-size
+      const diamond = `M ${pos[0]},${pos[1] - s} L ${pos[0] + s},${pos[1]} L ${pos[0]},${pos[1] + s} L ${pos[0] - s},${pos[1]} Z`;
+
+      _invasionLayer.append('path')
+        .attr('class', 'pin-marker')
+        .attr('d', diamond);
+
+      // Inner dot
+      _invasionLayer.append('circle')
+        .attr('class', 'pin-dot')
+        .attr('cx', pos[0])
+        .attr('cy', pos[1])
+        .attr('r', 2);
+    });
+  }
+
+  /**
    * Highlight countries that have active events
    * @param {Array} countryIsos — ISO alpha-3 codes with events
    */
@@ -374,6 +408,7 @@ const MapRenderer = (() => {
     init,
     drawInvasionLines,
     drawTradeLines,
+    drawPins,
     highlightActiveCountries,
     clearSelection
   };

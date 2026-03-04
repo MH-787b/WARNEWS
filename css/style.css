@@ -160,6 +160,26 @@ html, body {
   animation: trade-fade-in 0.8s ease forwards;
 }
 
+/* --- Political Event Pins --- */
+.pin-marker {
+  fill: none;
+  stroke: #d4a017;
+  stroke-width: 1.5px;
+  opacity: 0;
+  animation: pin-fade-in 0.6s ease forwards;
+}
+
+.pin-dot {
+  fill: #d4a017;
+  stroke: none;
+  opacity: 0;
+  animation: pin-fade-in 0.6s ease forwards;
+}
+
+@keyframes pin-fade-in {
+  to { opacity: 0.8; }
+}
+
 /* --- Floating Country Label --- */
 .country-label {
   position: fixed;
