@@ -72,15 +72,32 @@ const SEVERITY_KEYWORDS = {
 };
 
 const KNOWN_PAIRS = [
+  // --- Active wars / armed conflicts ---
   { type: 'invasion',              country: 'RUS', target: 'UKR', severity: 'critical', headline: 'Ongoing Russia\u2013Ukraine armed conflict' },
-  { type: 'military_mobilisation', country: 'ISR', target: 'PSE', severity: 'critical', headline: 'Israel\u2013Palestine military operations continue' },
-  { type: 'military_mobilisation', country: 'ISR', target: 'LBN', severity: 'high',     headline: 'Israel\u2013Lebanon cross-border military tensions' },
+  { type: 'military_mobilisation', country: 'ISR', target: 'PSE', severity: 'critical', headline: 'Israel\u2013Palestine military operations in Gaza' },
+  { type: 'military_mobilisation', country: 'ISR', target: 'LBN', severity: 'high',     headline: 'Israel\u2013Hezbollah cross-border conflict in Lebanon' },
+  { type: 'military_mobilisation', country: 'ISR', target: 'SYR', severity: 'high',     headline: 'Israeli military strikes on targets in Syria' },
+  { type: 'military_mobilisation', country: 'ISR', target: 'YEM', severity: 'high',     headline: 'Israel\u2013Houthi exchange of strikes via Yemen' },
   { type: 'military_mobilisation', country: 'IRN', target: 'ISR', severity: 'high',     headline: 'Iran\u2013Israel strategic military confrontation' },
+  { type: 'military_mobilisation', country: 'USA', target: 'IRN', severity: 'high',     headline: 'US military operations and sanctions against Iran' },
+  { type: 'military_mobilisation', country: 'USA', target: 'YEM', severity: 'high',     headline: 'US airstrikes on Houthi positions in Yemen' },
+  { type: 'invasion',              country: 'SDN', target: 'SSD', severity: 'critical', headline: 'Sudan civil war \u2014 RSF vs SAF armed conflict' },
+  { type: 'invasion',              country: 'MMR', target: 'MMR', severity: 'critical', headline: 'Myanmar civil war \u2014 junta vs resistance forces' },
+  { type: 'military_mobilisation', country: 'ETH', target: 'ERI', severity: 'high',     headline: 'Ethiopia\u2013Eritrea border tensions persist' },
+  { type: 'military_mobilisation', country: 'SOM', target: 'ETH', severity: 'high',     headline: 'Somalia\u2013Ethiopia tensions over Somaliland port deal' },
+  { type: 'military_mobilisation', country: 'COD', target: 'RWA', severity: 'high',     headline: 'DR Congo\u2013Rwanda conflict over M23 militia in eastern DRC' },
+  { type: 'military_mobilisation', country: 'PAK', target: 'AFG', severity: 'medium',   headline: 'Pakistan\u2013Afghanistan cross-border military operations' },
+
+  // --- Military standoffs / high tension ---
   { type: 'military_mobilisation', country: 'CHN', target: 'TWN', severity: 'high',     headline: 'China\u2013Taiwan strait military posturing' },
-  { type: 'invasion',              country: 'ETH', target: 'ERI', severity: 'high',     headline: 'Ethiopia\u2013Eritrea border conflict zone' },
+  { type: 'military_mobilisation', country: 'CHN', target: 'PHL', severity: 'medium',   headline: 'China\u2013Philippines South China Sea territorial disputes' },
   { type: 'military_mobilisation', country: 'PRK', target: 'KOR', severity: 'medium',   headline: 'North Korea\u2013South Korea military standoff' },
-  { type: 'military_mobilisation', country: 'SDN', target: 'SSD', severity: 'high',     headline: 'Sudan\u2013South Sudan armed conflict' },
-  { type: 'trade',                 country: 'CHN', target: 'USA', severity: 'medium',   headline: 'US\u2013China trade tensions and tariff escalation' },
+  { type: 'military_mobilisation', country: 'IND', target: 'PAK', severity: 'medium',   headline: 'India\u2013Pakistan border tensions in Kashmir' },
+  { type: 'military_mobilisation', country: 'RUS', target: 'GEO', severity: 'medium',   headline: 'Russia\u2013Georgia tensions over occupied territories' },
+
+  // --- Trade / economic ---
+  { type: 'trade',                 country: 'CHN', target: 'USA', severity: 'medium',   headline: 'US\u2013China trade war and tariff escalation' },
+  { type: 'trade',                 country: 'USA', target: 'RUS', severity: 'medium',   headline: 'US-led economic sanctions on Russia' },
   { type: 'trade',                 country: 'DEU', target: 'NOR', severity: 'low',      headline: 'Germany\u2013Norway energy corridor partnership' },
   { type: 'trade',                 country: 'JPN', target: 'USA', severity: 'low',      headline: 'Japan\u2013US semiconductor supply chain agreement' },
 ];
