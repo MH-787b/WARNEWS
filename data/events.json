@@ -1,78 +1,87 @@
 {
-  "updated": "2026-04-08T21:45:32.757Z",
-  "count": 37,
+  "updated": "2026-04-08T22:02:48.927Z",
+  "count": 38,
   "events": [
     {
-      "id": "879e9fccac275ff94f8703b7026c41bb",
-      "type": "military_mobilisation",
-      "headline": "How Pakistan emerged as the peacemaker between the US and Iran",
-      "country": "PAK",
+      "id": "467f93acfdb1ff02d125b058590e8f97",
+      "type": "diplomacy",
+      "headline": "Russia says it welcomes Iran ceasefire, hopes US will now resume Ukraine talks",
+      "country": "JOR",
       "target": "USA",
-      "timestamp": "2026-04-08 09:44:56",
-      "severity": "critical"
-    },
-    {
-      "id": "da438214ce4ef97b2953f878b6cf9a65",
-      "type": "military_mobilisation",
-      "headline": "'Ceased fire in Iran, ops continue in Lebanon': IDF confirms Israel partially following truce deal",
-      "country": "IND",
-      "target": "LBN",
-      "timestamp": "2026-04-08 09:44:45",
+      "timestamp": "2026-04-08 10:01:48",
       "severity": "high"
     },
     {
-      "id": "0701f279b111872e9aab2d6da6a6b2d6",
+      "id": "478b12ad6314eb72d181366a671f1b13",
       "type": "leadership_change",
-      "headline": "Kuwait praises role of Pakistan in Iran-US war ceasefire",
-      "country": "PAK",
-      "target": "KWT",
-      "timestamp": "2026-04-08 09:44:36",
-      "severity": "critical"
-    },
-    {
-      "id": "bff1577f1cf930a8c42ac3ad4d3ca883",
-      "type": "trade",
-      "headline": "India welcomes US-Iran ceasefire, hopes agreement will lead to ‘lasting peace’ in West Asia",
-      "country": "IND",
-      "target": "IRN",
-      "timestamp": "2026-04-08 09:44:29",
+      "headline": "Pakistan PM Sharif says Pezeshkian has confirmed Iran's participation in Islamabad talks",
+      "country": "JOR",
+      "target": "PAK",
+      "timestamp": "2026-04-08 10:01:48",
       "severity": "low"
     },
     {
-      "id": "3bde32a67eb9fff0adb51ab150e678a8",
-      "type": "invasion",
-      "headline": "Is Lebanon part of the Iran war ceasefire?",
-      "country": "GBR",
-      "target": "USA",
-      "timestamp": "2026-04-08 09:44:17",
+      "id": "1a4a95555fb49053d521379fcb6229e7",
+      "type": "diplomacy",
+      "headline": "Qatar welcomes US-Iran ceasefire, urges swift de-escalation",
+      "country": "TUR",
+      "target": "PAK",
+      "timestamp": "2026-04-08 10:01:43",
+      "severity": "high"
+    },
+    {
+      "id": "6d162efb3757c0b764d6e95e5ad20ec7",
+      "type": "leadership_change",
+      "headline": "Qatar says Iran must not repeat attacks on the Gulf, calls for free maritime trade after US-Iran ceasefire | DETAILS",
+      "country": "IND",
+      "target": "PAK",
+      "timestamp": "2026-04-08 10:01:38",
       "severity": "critical"
     },
     {
-      "id": "bdd43d7f573d9f3851591d39f00b61f9",
-      "type": "trade",
-      "headline": "India Welcomes US-Iran Ceasefire, Calls for Dialogue as Strait of Hormuz Reopens to Global Commerce",
-      "country": "IND",
-      "target": "IRN",
-      "timestamp": "2026-04-08 09:44:13",
-      "severity": "high"
-    },
-    {
-      "id": "8383fd8b3eca46d24d88a5d5f43e9350",
+      "id": "618b0d75ac5ba7775d9a5058d89ed550",
       "type": "leadership_change",
-      "headline": "'Biggest ever Israeli disaster' as Trump 'sidelines' Netanyahu with Iran peace deal",
-      "country": "ISR",
-      "target": "IRN",
-      "timestamp": "2026-04-08 09:44:00",
-      "severity": "medium"
+      "headline": "Analysis-Evangelicals Amplify Trump's Religious Framing of Iran War",
+      "country": "IRN",
+      "target": "USA",
+      "timestamp": "2026-04-08 10:01:36",
+      "severity": "critical"
     },
     {
-      "id": "8bc7803ef3e68e3eeaaa92eb37c4940e",
-      "type": "military_mobilisation",
-      "headline": "Vance Cautions Iran on Consequences if Fragile Truce Fails",
-      "country": "USA",
+      "id": "0eb640d4058cb022a6f26295946dced5",
+      "type": "leadership_change",
+      "headline": "Trump pulls back on Iran threat",
+      "country": "IRN",
+      "target": null,
+      "timestamp": "2026-04-08 10:01:28",
+      "severity": "critical"
+    },
+    {
+      "id": "e21c05fed8daefaf5e19a5a895cfb827",
+      "type": "diplomacy",
+      "headline": "Pope Leo welcomes Iran ceasefire with “satisfaction”",
+      "country": "EGY",
       "target": "IRN",
-      "timestamp": "2026-04-08 09:43:56",
+      "timestamp": "2026-04-08 10:01:18",
+      "severity": "critical"
+    },
+    {
+      "id": "afc4ea338fb999034a02475618d41d1c",
+      "type": "leadership_change",
+      "headline": "US-Iran Agree to Historic Two-Week Ceasefire; EU Calls for Permanent Peace",
+      "country": "IND",
+      "target": "USA",
+      "timestamp": "2026-04-08 10:01:12",
       "severity": "high"
+    },
+    {
+      "id": "9473fbdbae936206ea2befd0ec704836",
+      "type": "diplomacy",
+      "headline": "Iran Claims Foes Beg for Ceasefire Amid Ongoing Conflict",
+      "country": "CUB",
+      "target": "IRN",
+      "timestamp": "2026-04-08 10:01:05",
+      "severity": "medium"
     },
     {
       "type": "invasion",
@@ -81,7 +90,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.926Z"
     },
     {
       "type": "military_mobilisation",
@@ -90,7 +99,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -99,7 +108,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -108,7 +117,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -117,7 +126,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -126,7 +135,16 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
+    },
+    {
+      "type": "military_mobilisation",
+      "country": "USA",
+      "target": "IRN",
+      "severity": "high",
+      "headline": "US military operations and sanctions against Iran",
+      "id": "known-6",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -134,8 +152,8 @@
       "target": "YEM",
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
-      "id": "known-6",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "id": "known-7",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "invasion",
@@ -143,8 +161,8 @@
       "target": "SSD",
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
-      "id": "known-7",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "id": "known-8",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "invasion",
@@ -152,8 +170,8 @@
       "target": "MMR",
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
-      "id": "known-8",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "id": "known-9",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -161,8 +179,8 @@
       "target": "ERI",
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
-      "id": "known-9",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "id": "known-10",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -170,8 +188,8 @@
       "target": "ETH",
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
-      "id": "known-10",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "id": "known-11",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -179,8 +197,8 @@
       "target": "RWA",
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
-      "id": "known-11",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "id": "known-12",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -188,8 +206,8 @@
       "target": "AFG",
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
-      "id": "known-12",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "id": "known-13",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -197,8 +215,8 @@
       "target": "TWN",
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
-      "id": "known-13",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "id": "known-14",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -206,8 +224,8 @@
       "target": "PHL",
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
-      "id": "known-14",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "id": "known-15",
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -215,17 +233,8 @@
       "target": "KOR",
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
-      "id": "known-15",
-      "timestamp": "2026-04-08T21:45:32.757Z"
-    },
-    {
-      "type": "military_mobilisation",
-      "country": "IND",
-      "target": "PAK",
-      "severity": "medium",
-      "headline": "India–Pakistan border tensions in Kashmir",
       "id": "known-16",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "military_mobilisation",
@@ -234,7 +243,7 @@
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
       "id": "known-17",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -243,7 +252,7 @@
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
       "id": "known-18",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -252,7 +261,7 @@
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
       "id": "known-19",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -261,7 +270,7 @@
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
       "id": "known-20",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -270,7 +279,7 @@
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
       "id": "known-21",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -279,7 +288,7 @@
       "severity": "medium",
       "headline": "India–Russia oil and energy trade partnership",
       "id": "known-22",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -288,7 +297,7 @@
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
       "id": "known-23",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -297,7 +306,7 @@
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
       "id": "known-24",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -306,7 +315,7 @@
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
       "id": "known-25",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -315,7 +324,7 @@
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
       "id": "known-26",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -324,7 +333,7 @@
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
       "id": "known-27",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     },
     {
       "type": "trade",
@@ -333,7 +342,7 @@
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
       "id": "known-28",
-      "timestamp": "2026-04-08T21:45:32.757Z"
+      "timestamp": "2026-04-08T22:02:48.927Z"
     }
   ]
 }
