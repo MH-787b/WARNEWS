@@ -1,59 +1,68 @@
 {
-  "updated": "2026-04-12T16:54:42.579Z",
+  "updated": "2026-04-12T17:09:22.985Z",
   "count": 36,
   "events": [
     {
-      "id": "f0df342b1878f5ee902123f09a5a8cc5",
-      "type": "diplomacy",
-      "headline": "A place in the sun",
-      "country": "PAK",
-      "target": "USA",
-      "timestamp": "2026-04-12 04:54:00",
+      "id": "8bf8f6c316fa300b259e4a567bbd8d50",
+      "type": "leadership_change",
+      "headline": "US claims China may send air defenses to Iran; Beijing denies",
+      "country": "AFG",
+      "target": "CHN",
+      "timestamp": "2026-04-12 05:08:47",
+      "severity": "critical"
+    },
+    {
+      "id": "0b90b48e40e07e2a83e31b4e01b68e71",
+      "type": "military_mobilisation",
+      "headline": "Trump Considers Naval Blockade After US-Iran Talks Fail",
+      "country": "IND",
+      "target": "CHN",
+      "timestamp": "2026-04-12 05:08:31",
+      "severity": "high"
+    },
+    {
+      "id": "2fdfa7c5ccf081fc6f7573b026a8a2e8",
+      "type": "military_mobilisation",
+      "headline": "Pakistan brutally trolled after US-Iran 'truce talks' in Islamabad collapse; Netizens say, 'Paijaan total flop'",
+      "country": "IND",
+      "target": "PAK",
+      "timestamp": "2026-04-12 05:08:00",
       "severity": "low"
     },
     {
-      "id": "ddccdce37c8a52b2ddc8493f5b455e92",
-      "type": "diplomacy",
-      "headline": "Iran-US war latest: Vance says peace talks have failed after 21 hours of negotiations in Pakistan",
-      "country": "GBR",
+      "id": "2cba276909eb28192227bd44b5878267",
+      "type": "military_mobilisation",
+      "headline": "US-Iran ceasefire talks continue after midnight",
+      "country": "USA",
       "target": "PAK",
-      "timestamp": "2026-04-12 04:53:29",
+      "timestamp": "2026-04-12 05:07:44",
       "severity": "critical"
     },
     {
-      "id": "72f602de509159daf93771bdc3a29577",
-      "type": "trade",
-      "headline": "Key issues including Strait of Hormuz and sanctions discussed in Iran-US talks",
-      "country": "AZE",
-      "target": "IRN",
-      "timestamp": "2026-04-12 04:52:41",
-      "severity": "medium"
-    },
-    {
-      "id": "26784ffc7e74389c928e3fbbd7fc83c0",
+      "id": "bfcdef71b0bc965f4838250fdcb1927a",
       "type": "leadership_change",
-      "headline": "Iran hits out at US 'coercive logic' after 21-hour talks stalemate: 'Failed in war, failed in talks'",
+      "headline": "JD Vance says, ‘Bad news.’ Why did the US-Iran talks fail? What happens next?",
       "country": "IND",
       "target": "IRN",
-      "timestamp": "2026-04-12 04:51:48",
-      "severity": "critical"
+      "timestamp": "2026-04-12 05:07:23",
+      "severity": "high"
     },
     {
-      "id": "24570e9b650682c3003d917cf5e394b3",
+      "id": "5b3cbf24e026b6ca028c97e57b39ac8a",
       "type": "trade",
-      "headline": "US was ‘looking for an excuse’ to leave talks: Iran media",
+      "headline": "‘VOTE TRUMP, AND BRING BACK PEACE!’ Trump’s old post resurfaces after Iran talks collapse",
+      "country": "IND",
+      "target": "PAK",
+      "timestamp": "2026-04-12 05:07:21",
+      "severity": "low"
+    },
+    {
+      "id": "92a490f4b80bc4eb74afafa0ea8bdbd7",
+      "type": "leadership_change",
+      "headline": "Indonesian president to meet Putin in Russia for oil talks",
       "country": "PAK",
-      "target": "USA",
-      "timestamp": "2026-04-12 04:51:12",
-      "severity": "critical"
-    },
-    {
-      "id": "1cf4b1de38fdc2535d494d1707f05f0f",
-      "type": "trade",
-      "headline": "Iran rejects U.S. deal after 21 hours of peace talks",
-      "country": "NGA",
-      "target": "USA",
-      "timestamp": "2026-04-12 04:49:50",
+      "target": "IDN",
+      "timestamp": "2026-04-12 05:07:01",
       "severity": "low"
     },
     {
@@ -63,7 +72,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.984Z"
     },
     {
       "type": "military_mobilisation",
@@ -72,7 +81,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -81,7 +90,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -90,7 +99,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -99,7 +108,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -108,7 +117,7 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -117,7 +126,7 @@
       "severity": "high",
       "headline": "US military operations and sanctions against Iran",
       "id": "known-6",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -126,7 +135,7 @@
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
       "id": "known-7",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "invasion",
@@ -135,7 +144,7 @@
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
       "id": "known-8",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "invasion",
@@ -144,7 +153,7 @@
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
       "id": "known-9",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -153,7 +162,7 @@
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
       "id": "known-10",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -162,7 +171,7 @@
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
       "id": "known-11",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -171,7 +180,7 @@
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
       "id": "known-12",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -180,7 +189,7 @@
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
       "id": "known-13",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -189,7 +198,7 @@
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
       "id": "known-14",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -198,7 +207,7 @@
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
       "id": "known-15",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -207,16 +216,7 @@
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
       "id": "known-16",
-      "timestamp": "2026-04-12T16:54:42.579Z"
-    },
-    {
-      "type": "military_mobilisation",
-      "country": "IND",
-      "target": "PAK",
-      "severity": "medium",
-      "headline": "India–Pakistan border tensions in Kashmir",
-      "id": "known-17",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "military_mobilisation",
@@ -224,8 +224,8 @@
       "target": "GEO",
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
-      "id": "known-18",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-17",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -233,8 +233,8 @@
       "target": "USA",
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
-      "id": "known-19",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-18",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -242,8 +242,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
-      "id": "known-20",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-19",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -251,8 +251,8 @@
       "target": "NOR",
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
-      "id": "known-21",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-20",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -260,8 +260,8 @@
       "target": "USA",
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
-      "id": "known-22",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-21",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -269,8 +269,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "India–Russia oil and energy trade partnership",
-      "id": "known-23",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-22",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -278,8 +278,8 @@
       "target": "CHN",
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
-      "id": "known-24",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-23",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -287,8 +287,8 @@
       "target": "FRA",
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
-      "id": "known-25",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-24",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -296,8 +296,8 @@
       "target": "JPN",
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
-      "id": "known-26",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-25",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -305,8 +305,8 @@
       "target": "CHN",
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
-      "id": "known-27",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-26",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -314,8 +314,8 @@
       "target": "IND",
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
-      "id": "known-28",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-27",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     },
     {
       "type": "trade",
@@ -323,8 +323,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
-      "id": "known-29",
-      "timestamp": "2026-04-12T16:54:42.579Z"
+      "id": "known-28",
+      "timestamp": "2026-04-12T17:09:22.985Z"
     }
   ]
 }
