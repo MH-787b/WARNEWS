@@ -1,32 +1,59 @@
 {
-  "updated": "2026-04-13T07:46:17.463Z",
-  "count": 33,
+  "updated": "2026-04-13T08:29:50.194Z",
+  "count": 36,
   "events": [
     {
-      "id": "51c454753a527746fd5fa9a8beded5bc",
+      "id": "989797522acc378c70911b1d64062439",
       "type": "leadership_change",
-      "headline": "Viktor Orban suffers ‘painful’ election defeat ending 16 years of far-right rule in Hungary",
-      "country": "GBR",
+      "headline": "Donald Trump orders US Navy blockade of Strait of Hormuz after failed Iran talks threaten ceasefire",
+      "country": "AUS",
+      "target": "IRN",
+      "timestamp": "2026-04-12 20:28:29",
+      "severity": "low"
+    },
+    {
+      "id": "23ea9b50c701172e23c9c96aec9ca382",
+      "type": "leadership_change",
+      "headline": "PROFILE - Pro-EU Peter Magyar under spotlight after victory in Hungary's general elections",
+      "country": "TUR",
       "target": "HUN",
-      "timestamp": "2026-04-12 19:45:03",
+      "timestamp": "2026-04-12 20:27:49",
       "severity": "medium"
     },
     {
-      "id": "f363d14608e0ccc44be8be1f38903be8",
-      "type": "leadership_change",
-      "headline": "Orban concedes defeat as Hungarian voters deliver sweeping rebuke to 16-year rule",
-      "country": "HUN",
-      "target": "GBR",
-      "timestamp": "2026-04-12 19:44:52",
+      "id": "b55df64de914dece168278e0872ce53d",
+      "type": "diplomacy",
+      "headline": "Hungary awakes from Orbán nightmare",
+      "country": "SWE",
+      "target": "HUN",
+      "timestamp": "2026-04-12 20:27:05",
       "severity": "medium"
     },
     {
-      "id": "e493bf7a5e386d6c5704c7972db09ef2",
+      "id": "d57e264f786622b47288746cc53e7c02",
       "type": "leadership_change",
-      "headline": "Hungary’s Orban concedes landmark defeat to centre-right opposition",
-      "country": "CYP",
+      "headline": "Pro-EU Peter Magyar under spotlight after victory in Hungary’s general elections",
+      "country": "TUR",
       "target": "HUN",
-      "timestamp": "2026-04-12 19:44:44",
+      "timestamp": "2026-04-12 20:27:00",
+      "severity": "medium"
+    },
+    {
+      "id": "caca1ebff8966122a33037c917d61d28",
+      "type": "diplomacy",
+      "headline": "Orbán era is over, as Tisza scores historic victory in Hungary",
+      "country": "SWE",
+      "target": "HUN",
+      "timestamp": "2026-04-12 20:27:00",
+      "severity": "medium"
+    },
+    {
+      "id": "daabc751734a046665da9429319de81b",
+      "type": "leadership_change",
+      "headline": "Hungary's Political Shift: Peter Magyar Set to Become New Prime Minister",
+      "country": "IND",
+      "target": "HUN",
+      "timestamp": "2026-04-12 20:25:04",
       "severity": "medium"
     },
     {
@@ -36,7 +63,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.193Z"
     },
     {
       "type": "military_mobilisation",
@@ -45,7 +72,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -54,7 +81,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -63,7 +90,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -72,7 +99,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -81,7 +108,7 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -90,7 +117,7 @@
       "severity": "high",
       "headline": "US military operations and sanctions against Iran",
       "id": "known-6",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -99,7 +126,7 @@
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
       "id": "known-7",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "invasion",
@@ -108,7 +135,7 @@
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
       "id": "known-8",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "invasion",
@@ -117,7 +144,7 @@
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
       "id": "known-9",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -126,7 +153,7 @@
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
       "id": "known-10",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -135,7 +162,7 @@
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
       "id": "known-11",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -144,7 +171,7 @@
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
       "id": "known-12",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -153,7 +180,7 @@
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
       "id": "known-13",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -162,7 +189,7 @@
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
       "id": "known-14",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -171,7 +198,7 @@
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
       "id": "known-15",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -180,7 +207,7 @@
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
       "id": "known-16",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -189,7 +216,7 @@
       "severity": "medium",
       "headline": "India–Pakistan border tensions in Kashmir",
       "id": "known-17",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "military_mobilisation",
@@ -198,7 +225,7 @@
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
       "id": "known-18",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -207,7 +234,7 @@
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
       "id": "known-19",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -216,7 +243,7 @@
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
       "id": "known-20",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -225,7 +252,7 @@
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
       "id": "known-21",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -234,7 +261,7 @@
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
       "id": "known-22",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -243,7 +270,7 @@
       "severity": "medium",
       "headline": "India–Russia oil and energy trade partnership",
       "id": "known-23",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -252,7 +279,7 @@
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
       "id": "known-24",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -261,7 +288,7 @@
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
       "id": "known-25",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -270,7 +297,7 @@
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
       "id": "known-26",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -279,7 +306,7 @@
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
       "id": "known-27",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -288,7 +315,7 @@
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
       "id": "known-28",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     },
     {
       "type": "trade",
@@ -297,7 +324,7 @@
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
       "id": "known-29",
-      "timestamp": "2026-04-13T07:46:17.463Z"
+      "timestamp": "2026-04-13T08:29:50.194Z"
     }
   ]
 }
