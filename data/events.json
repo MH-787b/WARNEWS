@@ -1,50 +1,77 @@
 {
-  "updated": "2026-04-27T17:28:31.858Z",
-  "count": 35,
+  "updated": "2026-04-27T17:55:26.242Z",
+  "count": 37,
   "events": [
     {
-      "id": "470f5fe190a1435c0115680fd9f58147",
+      "id": "832bcbe105920967558df1ed3b2bc5f2",
       "type": "diplomacy",
-      "headline": "The Colombo Security Conclave Upgrade Is Timely. But Is It Enough?",
-      "country": "JPN",
-      "target": "IND",
-      "timestamp": "2026-04-27 05:28:00",
+      "headline": "‘No word against Americans' wishes': Iranian official says Pakistan ‘not a suitable intermediary’ for talks with US",
+      "country": "IND",
+      "target": "PAK",
+      "timestamp": "2026-04-27 05:54:53",
+      "severity": "low"
+    },
+    {
+      "id": "7e152bfb52502f448c374dfe88c9749e",
+      "type": "leadership_change",
+      "headline": "What Is Iran’s 3-Stage Formula Proposed to the US for Ending the War?",
+      "country": "IND",
+      "target": "USA",
+      "timestamp": "2026-04-27 05:54:10",
       "severity": "critical"
     },
     {
-      "id": "25d1ffbe6887868c6495de5085ce1e27",
+      "id": "d9a5dc913105221c03bf26f07a1a307f",
       "type": "diplomacy",
-      "headline": "'Hope of Justice...': Kejriwal Writes to Delhi HC Judge, Refuses to Appear in Excise Case",
+      "headline": "Atishi supports Kejriwal’s refusal to appear in Delhi HC excise policy case",
       "country": "IND",
       "target": "USA",
-      "timestamp": "2026-04-27 05:27:03",
+      "timestamp": "2026-04-27 05:52:38",
       "severity": "medium"
     },
     {
-      "id": "f4e3a1a3e60fea9ca1d4fd79f2880a99",
-      "type": "leadership_change",
-      "headline": "Ajit Doval’s Gulf diplomacy focuses on security, energy and regional stability",
-      "country": "IND",
-      "target": "ARE",
-      "timestamp": "2026-04-27 05:25:00",
-      "severity": "medium"
-    },
-    {
-      "id": "c81aea407c7a3220cb682b7a66812320",
+      "id": "a440c2bcfe0813378276314366d97255",
       "type": "diplomacy",
-      "headline": "Iran Says It Stands United Amid Rising Tensions with US, Israel",
+      "headline": "Gavoka raises concern over past airline drug allegations, says stricter protocols now in place",
       "country": "USA",
-      "target": "ISR",
-      "timestamp": "2026-04-27 05:24:58",
+      "target": null,
+      "timestamp": "2026-04-27 05:52:20",
       "severity": "medium"
     },
     {
-      "id": "850f8f355fb876b3cac8bdada9efe645",
+      "id": "993f7ae91340cd2f87a4534e228a5411",
+      "type": "invasion",
+      "headline": "Kim Jong-un reaffirms North Korea's support for Russia's 'sacred' Ukraine war",
+      "country": "FRA",
+      "target": "PRK",
+      "timestamp": "2026-04-27 05:51:14",
+      "severity": "critical"
+    },
+    {
+      "id": "f2fabd55b1c3a3077570019e8f24bbe6",
+      "type": "trade",
+      "headline": "Iran proposes opening Strait of Hormuz and ending war – Axios",
+      "country": "UKR",
+      "target": "IRN",
+      "timestamp": "2026-04-27 05:51:00",
+      "severity": "critical"
+    },
+    {
+      "id": "1b0e33074be1f76d2bd68d3198402dd4",
       "type": "diplomacy",
-      "headline": "Iran envoy goes to Russia, Trump says 'call us' to talk",
-      "country": "AUS",
-      "target": "RUS",
-      "timestamp": "2026-04-27 05:24:47",
+      "headline": "Zoho's Sridhar Vembu requests Indians in US for Ghar Vaapsi amid Trump's 'hellhole' row, says it's the only path to true respect",
+      "country": "IND",
+      "target": "USA",
+      "timestamp": "2026-04-27 05:49:48",
+      "severity": "critical"
+    },
+    {
+      "id": "57579fb3e62a49e074de8ec7a9adcc64",
+      "type": "military_mobilisation",
+      "headline": "Egytpian Military Exercise Terrifies Israeli Border Residents Amid Tense Middle East Situation",
+      "country": "IND",
+      "target": "ISR",
+      "timestamp": "2026-04-27 05:49:15",
       "severity": "critical"
     },
     {
@@ -54,7 +81,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -63,7 +90,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -72,7 +99,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -81,7 +108,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -90,7 +117,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -99,7 +126,7 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -108,7 +135,7 @@
       "severity": "high",
       "headline": "US military operations and sanctions against Iran",
       "id": "known-6",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -117,7 +144,7 @@
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
       "id": "known-7",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "invasion",
@@ -126,7 +153,7 @@
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
       "id": "known-8",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "invasion",
@@ -135,7 +162,7 @@
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
       "id": "known-9",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -144,7 +171,7 @@
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
       "id": "known-10",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -153,7 +180,7 @@
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
       "id": "known-11",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -162,7 +189,7 @@
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
       "id": "known-12",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -171,7 +198,7 @@
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
       "id": "known-13",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -180,7 +207,7 @@
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
       "id": "known-14",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -189,7 +216,7 @@
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
       "id": "known-15",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -198,16 +225,7 @@
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
       "id": "known-16",
-      "timestamp": "2026-04-27T17:28:31.858Z"
-    },
-    {
-      "type": "military_mobilisation",
-      "country": "IND",
-      "target": "PAK",
-      "severity": "medium",
-      "headline": "India–Pakistan border tensions in Kashmir",
-      "id": "known-17",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "military_mobilisation",
@@ -215,8 +233,8 @@
       "target": "GEO",
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
-      "id": "known-18",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-17",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -224,8 +242,8 @@
       "target": "USA",
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
-      "id": "known-19",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-18",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -233,8 +251,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
-      "id": "known-20",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-19",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -242,8 +260,8 @@
       "target": "NOR",
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
-      "id": "known-21",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-20",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -251,8 +269,8 @@
       "target": "USA",
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
-      "id": "known-22",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-21",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -260,8 +278,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "India–Russia oil and energy trade partnership",
-      "id": "known-23",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-22",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -269,8 +287,8 @@
       "target": "CHN",
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
-      "id": "known-24",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-23",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -278,8 +296,8 @@
       "target": "FRA",
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
-      "id": "known-25",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-24",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -287,8 +305,8 @@
       "target": "JPN",
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
-      "id": "known-26",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-25",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -296,8 +314,8 @@
       "target": "CHN",
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
-      "id": "known-27",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-26",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -305,8 +323,8 @@
       "target": "IND",
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
-      "id": "known-28",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-27",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     },
     {
       "type": "trade",
@@ -314,8 +332,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
-      "id": "known-29",
-      "timestamp": "2026-04-27T17:28:31.858Z"
+      "id": "known-28",
+      "timestamp": "2026-04-27T17:55:26.242Z"
     }
   ]
 }
