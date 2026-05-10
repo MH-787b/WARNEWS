@@ -1,51 +1,78 @@
 {
-  "updated": "2026-05-10T11:10:31.400Z",
-  "count": 35,
+  "updated": "2026-05-10T11:35:28.582Z",
+  "count": 38,
   "events": [
     {
-      "id": "952d7720893a706e200b7c03b277e95f",
+      "id": "0a79a91186ce86eb59dded15ed117836",
+      "type": "diplomacy",
+      "headline": "Marka-e-Haq Redefines Pakistan’s Image",
+      "country": "PAK",
+      "target": null,
+      "timestamp": "2026-05-09 23:34:28",
+      "severity": "low"
+    },
+    {
+      "id": "0c0d8ccf769e1e83a486a5568bd7847b",
       "type": "leadership_change",
-      "headline": "13803948 Delcy Rodriguez",
-      "country": "MYS",
+      "headline": "Russia, Ukraine agree to 3-day ceasefire, prisoner swap: Trump",
+      "country": "IND",
+      "target": "UKR",
+      "timestamp": "2026-05-09 23:33:20",
+      "severity": "critical"
+    },
+    {
+      "id": "deac1c56d77c252843ebb4b93c085927",
+      "type": "leadership_change",
+      "headline": "2027: Fubara missing as APC screens 14 govs, Tinubu’s challenger",
+      "country": "NGA",
       "target": "USA",
-      "timestamp": "2026-05-09 23:07:45",
+      "timestamp": "2026-05-09 23:33:01",
       "severity": "medium"
     },
     {
-      "id": "70afc63b10714e3dee2e75f7e42708a0",
-      "type": "diplomacy",
-      "headline": "State Democratic lawmaker criticizes Tennessee’s redistricting map",
+      "id": "c6b0965c55736802b12f62d8870621e8",
+      "type": "leadership_change",
+      "headline": "Russian President Putin Says Russia-Ukraine War Is 'Coming to an End'",
+      "country": "UKR",
+      "target": "RUS",
+      "timestamp": "2026-05-09 23:32:31",
+      "severity": "critical"
+    },
+    {
+      "id": "5c66d3401caec48b2fa9887766ca6bc6",
+      "type": "leadership_change",
+      "headline": "Putin claims Ukraine war winding down, blasts West for backing Kyiv",
+      "country": "MYS",
+      "target": "UKR",
+      "timestamp": "2026-05-09 23:30:50",
+      "severity": "critical"
+    },
+    {
+      "id": "ca96feb0642301b0921303eee7cd348a",
+      "type": "invasion",
+      "headline": "Texas GOP Caucus Backs Resolution Affirming States’ Right to Defend Against Border Invasion",
       "country": "USA",
       "target": null,
-      "timestamp": "2026-05-09 23:06:17",
-      "severity": "medium"
-    },
-    {
-      "id": "d0f25f387f5b8e349085de05ab174dfb",
-      "type": "diplomacy",
-      "headline": "'Russia Is Outproducing NATO': EU Rushes €50 Billion Border Defence Push",
-      "country": "IND",
-      "target": "LTU",
-      "timestamp": "2026-05-09 23:04:53",
-      "severity": "medium"
-    },
-    {
-      "id": "370b1aa69e21f8a8c46943d3a57dfe66",
-      "type": "diplomacy",
-      "headline": "Another year, another controversy for Eurovision - but fans are sticking by it",
-      "country": "GBR",
-      "target": "IRL",
-      "timestamp": "2026-05-09 23:03:37",
-      "severity": "medium"
-    },
-    {
-      "id": "f03a7a02508054aebaf05d9c7d3007ff",
-      "type": "diplomacy",
-      "headline": "Peru opens investigation into former IDF soldier after Hind Rajab Foundation files complaint",
-      "country": "ISR",
-      "target": "PER",
-      "timestamp": "2026-05-09 23:02:56",
+      "timestamp": "2026-05-09 23:30:29",
       "severity": "critical"
+    },
+    {
+      "id": "22d466409520081d1698266fac90ca49",
+      "type": "leadership_change",
+      "headline": "EXCLUSIVE: TINUBU SETTLES PROGRESSIVES GOVERNORS RIFT: Uzodinma to Refund Over N800bn Allegedly Raised for President’s Re-election",
+      "country": "NGA",
+      "target": "USA",
+      "timestamp": "2026-05-09 23:30:28",
+      "severity": "high"
+    },
+    {
+      "id": "1b4ab13dea87b5a6d35c82ed9803d7af",
+      "type": "diplomacy",
+      "headline": "Two GOP candidates for California governor participate in Bakersfield forum",
+      "country": "TCD",
+      "target": null,
+      "timestamp": "2026-05-09 23:30:07",
+      "severity": "medium"
     },
     {
       "type": "invasion",
@@ -54,7 +81,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.581Z"
     },
     {
       "type": "military_mobilisation",
@@ -63,7 +90,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -72,7 +99,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -81,7 +108,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -90,7 +117,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -99,7 +126,7 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -108,7 +135,7 @@
       "severity": "high",
       "headline": "US military operations and sanctions against Iran",
       "id": "known-6",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -117,7 +144,7 @@
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
       "id": "known-7",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "invasion",
@@ -126,7 +153,7 @@
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
       "id": "known-8",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "invasion",
@@ -135,7 +162,7 @@
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
       "id": "known-9",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -144,7 +171,7 @@
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
       "id": "known-10",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -153,7 +180,7 @@
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
       "id": "known-11",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -162,7 +189,7 @@
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
       "id": "known-12",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -171,7 +198,7 @@
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
       "id": "known-13",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -180,7 +207,7 @@
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
       "id": "known-14",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -189,7 +216,7 @@
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
       "id": "known-15",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -198,7 +225,7 @@
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
       "id": "known-16",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -207,7 +234,7 @@
       "severity": "medium",
       "headline": "India–Pakistan border tensions in Kashmir",
       "id": "known-17",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "military_mobilisation",
@@ -216,7 +243,7 @@
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
       "id": "known-18",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -225,7 +252,7 @@
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
       "id": "known-19",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -234,7 +261,7 @@
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
       "id": "known-20",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -243,7 +270,7 @@
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
       "id": "known-21",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -252,7 +279,7 @@
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
       "id": "known-22",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -261,7 +288,7 @@
       "severity": "medium",
       "headline": "India–Russia oil and energy trade partnership",
       "id": "known-23",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -270,7 +297,7 @@
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
       "id": "known-24",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -279,7 +306,7 @@
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
       "id": "known-25",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -288,7 +315,7 @@
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
       "id": "known-26",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -297,7 +324,7 @@
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
       "id": "known-27",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -306,7 +333,7 @@
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
       "id": "known-28",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     },
     {
       "type": "trade",
@@ -315,7 +342,7 @@
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
       "id": "known-29",
-      "timestamp": "2026-05-10T11:10:31.400Z"
+      "timestamp": "2026-05-10T11:35:28.582Z"
     }
   ]
 }
