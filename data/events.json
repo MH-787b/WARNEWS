@@ -1,78 +1,51 @@
 {
-  "updated": "2026-05-22T20:50:31.442Z",
-  "count": 38,
+  "updated": "2026-05-22T21:23:31.822Z",
+  "count": 35,
   "events": [
     {
-      "id": "cadea5ac710a64899977721908519bd0",
-      "type": "leadership_change",
-      "headline": "Trump May Skip Son Don Jr.'s Bahamas Wedding, Says Timing Is 'Not Good' For Him: 'I Have A Thing Called Iran...'",
-      "country": "IRN",
+      "id": "698237e7fcb4942d1723fffdc502a2d5",
+      "type": "diplomacy",
+      "headline": "One dead, several injured in explosion at Mol's Tiszaújváros facility",
+      "country": "HUN",
       "target": null,
-      "timestamp": "2026-05-22 08:48:46",
-      "severity": "critical"
+      "timestamp": "2026-05-22 09:22:02",
+      "severity": "medium"
     },
     {
-      "id": "0bf3fac1cd2ea10eb4c1df702785ab42",
+      "id": "4e9d873ddf4d6fed7c76fda4f946a3ba",
       "type": "diplomacy",
-      "headline": "Haj pilgrimage begins in Mecca as Middle East tensions and extreme heat loom",
-      "country": "MYS",
+      "headline": "Irish premier arrives at Vatican for meeting with the Pope",
+      "country": "GBR",
       "target": "USA",
-      "timestamp": "2026-05-22 08:48:43",
+      "timestamp": "2026-05-22 09:21:32",
       "severity": "medium"
     },
     {
-      "id": "ee47cafaadc437da8a63673db8df287e",
+      "id": "e48fc332aed6050eeed944f00850c12f",
       "type": "diplomacy",
-      "headline": "Incoming US envoy Lipton meets Romualdez ahead of Manila posting",
-      "country": "PHL",
+      "headline": "Irish PM to discuss Middle East conflict with Pope",
+      "country": "GBR",
+      "target": "IRL",
+      "timestamp": "2026-05-22 09:20:54",
+      "severity": "medium"
+    },
+    {
+      "id": "b5a38068036cafe7ffdd0e368ae91098",
+      "type": "diplomacy",
+      "headline": "Russian investigators complete probe into former UK defense secretary",
+      "country": "RUS",
+      "target": "GBR",
+      "timestamp": "2026-05-22 09:20:50",
+      "severity": "medium"
+    },
+    {
+      "id": "feff942023c98ab0c2b1a32454d80dfe",
+      "type": "trade",
+      "headline": "The USTEC hints at a possible mobilization coinciding with the Pope's visit to Barcelona",
+      "country": "ESP",
       "target": "USA",
-      "timestamp": "2026-05-22 08:48:39",
-      "severity": "medium"
-    },
-    {
-      "id": "add54c91ce18462150a2c4caf10ae280",
-      "type": "military_mobilisation",
-      "headline": "Defense ministers: Clarity on US troop deployment to Europe expected 'within weeks'",
-      "country": "EST",
-      "target": "USA",
-      "timestamp": "2026-05-22 08:48:00",
-      "severity": "medium"
-    },
-    {
-      "id": "e6add119b85bc221fa139ea5f3265ba8",
-      "type": "diplomacy",
-      "headline": "‘Files shouldn’t move table to table’: PM Modi’s 3 big messages amid US-Iran war crisis",
-      "country": "IND",
-      "target": "IRN",
-      "timestamp": "2026-05-22 08:47:43",
-      "severity": "critical"
-    },
-    {
-      "id": "8b420cd1ae99ad6d9e45877094553db4",
-      "type": "diplomacy",
-      "headline": "Memorial Day is May 25. Services, parades in Hornell area communities",
-      "country": "USA",
-      "target": null,
-      "timestamp": "2026-05-22 08:47:10",
-      "severity": "medium"
-    },
-    {
-      "id": "23c9845edf6f92421a9b8d1298aa385d",
-      "type": "leadership_change",
-      "headline": "'Confusing': NATO allies sound out US on Trump's troop moves",
-      "country": "MYS",
-      "target": "IRN",
-      "timestamp": "2026-05-22 08:47:00",
+      "timestamp": "2026-05-22 09:20:32",
       "severity": "low"
-    },
-    {
-      "id": "dd441ed0659db7f41ecf0ba18e69c5d3",
-      "type": "military_mobilisation",
-      "headline": "Rubio tells NATO allies to face up to troop cuts in Europe",
-      "country": "SYR",
-      "target": "POL",
-      "timestamp": "2026-05-22 08:47:00",
-      "severity": "high"
     },
     {
       "type": "invasion",
@@ -81,7 +54,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-05-22T20:50:31.441Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -90,7 +63,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -99,7 +72,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -108,7 +81,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -117,7 +90,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -126,7 +99,7 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -135,7 +108,7 @@
       "severity": "high",
       "headline": "US military operations and sanctions against Iran",
       "id": "known-6",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -144,7 +117,7 @@
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
       "id": "known-7",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "invasion",
@@ -153,7 +126,7 @@
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
       "id": "known-8",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "invasion",
@@ -162,7 +135,7 @@
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
       "id": "known-9",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -171,7 +144,7 @@
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
       "id": "known-10",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -180,7 +153,7 @@
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
       "id": "known-11",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -189,7 +162,7 @@
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
       "id": "known-12",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -198,7 +171,7 @@
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
       "id": "known-13",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -207,7 +180,7 @@
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
       "id": "known-14",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -216,7 +189,7 @@
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
       "id": "known-15",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -225,7 +198,7 @@
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
       "id": "known-16",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -234,7 +207,7 @@
       "severity": "medium",
       "headline": "India–Pakistan border tensions in Kashmir",
       "id": "known-17",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "military_mobilisation",
@@ -243,7 +216,7 @@
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
       "id": "known-18",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -252,7 +225,7 @@
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
       "id": "known-19",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -261,7 +234,7 @@
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
       "id": "known-20",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -270,7 +243,7 @@
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
       "id": "known-21",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -279,7 +252,7 @@
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
       "id": "known-22",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -288,7 +261,7 @@
       "severity": "medium",
       "headline": "India–Russia oil and energy trade partnership",
       "id": "known-23",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -297,7 +270,7 @@
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
       "id": "known-24",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -306,7 +279,7 @@
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
       "id": "known-25",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -315,7 +288,7 @@
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
       "id": "known-26",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -324,7 +297,7 @@
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
       "id": "known-27",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -333,7 +306,7 @@
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
       "id": "known-28",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     },
     {
       "type": "trade",
@@ -342,7 +315,7 @@
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
       "id": "known-29",
-      "timestamp": "2026-05-22T20:50:31.442Z"
+      "timestamp": "2026-05-22T21:23:31.822Z"
     }
   ]
 }
