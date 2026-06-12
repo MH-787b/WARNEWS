@@ -1,59 +1,95 @@
 {
-  "updated": "2026-06-12T17:45:54.149Z",
-  "count": 36,
+  "updated": "2026-06-12T18:26:30.546Z",
+  "count": 39,
   "events": [
     {
-      "id": "085e376444c712611fd5e986e7810187",
+      "id": "db93814265719d922406811ecfb9ea43",
+      "type": "diplomacy",
+      "headline": "Get your voters’ cards, APC state chairmen tell members",
+      "country": "NGA",
+      "target": "USA",
+      "timestamp": "2026-06-12 06:25:34",
+      "severity": "medium"
+    },
+    {
+      "id": "bef3ca8415c72147874a2e4fda7c9926",
+      "type": "trade",
+      "headline": "Asked India to buy Russian oil, then hit us with tariffs: Jaishankar",
+      "country": "IND",
+      "target": "RUS",
+      "timestamp": "2026-06-12 06:24:48",
+      "severity": "medium"
+    },
+    {
+      "id": "dab2d3f3168aee9ec8cfc3331fa6ef97",
+      "type": "leadership_change",
+      "headline": "June 12: Atiku asks Nigerians to reject bad governance, politics of intimidation",
+      "country": "NGA",
+      "target": "NER",
+      "timestamp": "2026-06-12 06:24:48",
+      "severity": "medium"
+    },
+    {
+      "id": "fba080a568ebfe1ebe35b90f14108723",
+      "type": "diplomacy",
+      "headline": "'European weapons used against India': Jaishankar's sharp reality check amid Russia ties criticism",
+      "country": "IND",
+      "target": "RUS",
+      "timestamp": "2026-06-12 06:24:29",
+      "severity": "medium"
+    },
+    {
+      "id": "6d1603c7ec27b039b6448e31c404b4e0",
+      "type": "trade",
+      "headline": "Robin renews push for ROTC Act",
+      "country": "PHL",
+      "target": "USA",
+      "timestamp": "2026-06-12 06:24:01",
+      "severity": "medium"
+    },
+    {
+      "id": "29605a8fa2b743839243a24400518744",
       "type": "military_mobilisation",
-      "headline": "Operation Sherawali Enters 21st Day as Security Forces Intensify Anti-Terror Search in Rajouri",
-      "country": "IND",
-      "target": null,
-      "timestamp": "2026-06-12 05:44:51",
+      "headline": "Tinubu approves 50,000 police recruits, hopeful on abducted pupils’ return",
+      "country": "NGA",
+      "target": "USA",
+      "timestamp": "2026-06-12 06:24:00",
+      "severity": "high"
+    },
+    {
+      "id": "319b6657d39f271bb793b85f57867bfc",
+      "type": "diplomacy",
+      "headline": "27 years of uninterrupted democracy, Nigeria’s most obvious achievement – IPAC",
+      "country": "NGA",
+      "target": "NER",
+      "timestamp": "2026-06-12 06:23:43",
       "severity": "medium"
     },
     {
-      "id": "2169e388afa01d41672db3f6021fb2c9",
-      "type": "trade",
-      "headline": "S. Korean gov't sees economic recovery amid Mideast uncertainties",
-      "country": "CHN",
-      "target": "KOR",
-      "timestamp": "2026-06-12 05:44:44",
-      "severity": "medium"
-    },
-    {
-      "id": "a68919688c8f6b2964ef239ba2a6d954",
-      "type": "trade",
-      "headline": "US-Israel-Iran War Latest Update: Will US and Iran Reach a Deal? Egypt Urges Both Sides to Seize ‘Available Opportunity’ After Trump’s Remarks",
-      "country": "IND",
-      "target": "ISR",
-      "timestamp": "2026-06-12 05:44:43",
+      "id": "a66d386e7bcf74870e8cc19c720a8648",
+      "type": "leadership_change",
+      "headline": "Trump says US ‘ended the war with Iran’ but Tehran has yet to confirm a deal",
+      "country": "IRN",
+      "target": "USA",
+      "timestamp": "2026-06-12 06:23:07",
       "severity": "critical"
     },
     {
-      "id": "dca90161d19e1d3c6828945aed45a000",
-      "type": "diplomacy",
-      "headline": "India News | J-K: Operation Sherawali Enters 21st Day, Security Forces Continue Search in Rajouri",
-      "country": "IND",
-      "target": "USA",
-      "timestamp": "2026-06-12 05:44:32",
-      "severity": "medium"
-    },
-    {
-      "id": "a0fe0bf2710d04561803db5633ee1d0e",
+      "id": "4f4668c742026a6859170732efb28da9",
       "type": "trade",
-      "headline": "‘US specifically asked India to buy Russian oil’: EAM Jaishankar defends crude imports",
+      "headline": "'First sanctions, then waivers': Jaishankar calls out double standards on Russian oil",
       "country": "IND",
       "target": "UKR",
-      "timestamp": "2026-06-12 05:44:28",
+      "timestamp": "2026-06-12 06:22:58",
       "severity": "critical"
     },
     {
-      "id": "45869bd1441e987264142ed1a6d6a225",
-      "type": "invasion",
-      "headline": "Russian military loses another 1,300 troops, 78 artillery systems in war against Ukraine",
-      "country": "UKR",
-      "target": "RUS",
-      "timestamp": "2026-06-12 05:44:00",
+      "id": "635adb1b9cf7095744bf4fb8f21661fd",
+      "type": "diplomacy",
+      "headline": "Indonesia’s US$8 million visa scandal threatens drive for talent, investors",
+      "country": "IDN",
+      "target": "USA",
+      "timestamp": "2026-06-12 06:22:40",
       "severity": "critical"
     },
     {
@@ -63,7 +99,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -72,7 +108,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -81,7 +117,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -90,7 +126,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -99,7 +135,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -108,7 +144,7 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -117,7 +153,7 @@
       "severity": "high",
       "headline": "US military operations and sanctions against Iran",
       "id": "known-6",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -126,7 +162,7 @@
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
       "id": "known-7",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "invasion",
@@ -135,7 +171,7 @@
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
       "id": "known-8",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "invasion",
@@ -144,7 +180,7 @@
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
       "id": "known-9",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -153,7 +189,7 @@
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
       "id": "known-10",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -162,7 +198,7 @@
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
       "id": "known-11",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -171,7 +207,7 @@
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
       "id": "known-12",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -180,7 +216,7 @@
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
       "id": "known-13",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -189,7 +225,7 @@
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
       "id": "known-14",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -198,7 +234,7 @@
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
       "id": "known-15",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -207,7 +243,7 @@
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
       "id": "known-16",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -216,7 +252,7 @@
       "severity": "medium",
       "headline": "India–Pakistan border tensions in Kashmir",
       "id": "known-17",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "military_mobilisation",
@@ -225,7 +261,7 @@
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
       "id": "known-18",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -234,7 +270,7 @@
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
       "id": "known-19",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -243,7 +279,7 @@
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
       "id": "known-20",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -252,7 +288,7 @@
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
       "id": "known-21",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -261,16 +297,7 @@
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
       "id": "known-22",
-      "timestamp": "2026-06-12T17:45:54.149Z"
-    },
-    {
-      "type": "trade",
-      "country": "IND",
-      "target": "RUS",
-      "severity": "medium",
-      "headline": "India–Russia oil and energy trade partnership",
-      "id": "known-23",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -278,8 +305,8 @@
       "target": "CHN",
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
-      "id": "known-24",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "id": "known-23",
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -287,8 +314,8 @@
       "target": "FRA",
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
-      "id": "known-25",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "id": "known-24",
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -296,8 +323,8 @@
       "target": "JPN",
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
-      "id": "known-26",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "id": "known-25",
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -305,8 +332,8 @@
       "target": "CHN",
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
-      "id": "known-27",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "id": "known-26",
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -314,8 +341,8 @@
       "target": "IND",
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
-      "id": "known-28",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "id": "known-27",
+      "timestamp": "2026-06-12T18:26:30.545Z"
     },
     {
       "type": "trade",
@@ -323,8 +350,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
-      "id": "known-29",
-      "timestamp": "2026-06-12T17:45:54.149Z"
+      "id": "known-28",
+      "timestamp": "2026-06-12T18:26:30.545Z"
     }
   ]
 }
