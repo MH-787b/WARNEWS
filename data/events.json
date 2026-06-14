@@ -1,69 +1,96 @@
 {
-  "updated": "2026-06-14T00:00:36.867Z",
-  "count": 37,
+  "updated": "2026-06-14T01:25:17.477Z",
+  "count": 39,
   "events": [
     {
-      "id": "a5d60ceb2cc5970600e8dcfbcdb56b0e",
+      "id": "c6447845789362c91cf357056e8a64ff",
       "type": "trade",
-      "headline": "Iran Sets July Funeral Ceremonies for Former Supreme Leader Ali Khamenei",
-      "country": "AFG",
-      "target": "IRN",
-      "timestamp": "2026-06-13 12:00:00",
-      "severity": "low"
+      "headline": "Historic US-Iran Peace Deal Expected Within 24 Hours, Confirms Pakistani PM",
+      "country": "IND",
+      "target": "PAK",
+      "timestamp": "2026-06-13 13:25:00",
+      "severity": "high"
     },
     {
-      "id": "f84ed12f716449e08646df663d81c63d",
+      "id": "a9e2b4b0cb1feade18254f040b46c355",
       "type": "diplomacy",
-      "headline": "Opinion: The language of peace",
-      "country": "LBN",
-      "target": "MMR",
-      "timestamp": "2026-06-13 12:00:00",
+      "headline": "US-Israel-Iran War Latest Update: Iran Announces Former Supreme Leader Ayatollah Ali Khamenei Funeral Dates Across Tehran, Qom & Mashhad - Check Where & How Ali Khamenei Will Be Buried",
+      "country": "IND",
+      "target": "ISR",
+      "timestamp": "2026-06-13 13:24:48",
       "severity": "critical"
     },
     {
-      "id": "2bb11319007d53c254e223a1e147d3ab",
-      "type": "diplomacy",
-      "headline": "Trump’s World Cup is a low point – even after Qatar and Russia",
-      "country": "ESP",
-      "target": "RUS",
-      "timestamp": "2026-06-13 12:00:00",
-      "severity": "medium"
-    },
-    {
-      "id": "6a1c133dae4e9ba1174abd12c6a9e203",
-      "type": "diplomacy",
-      "headline": "Residents invited to Flag Day service",
+      "id": "dba45f67765da34c7643e8cb2aad959b",
+      "type": "trade",
+      "headline": "Republic of China’s Opposition Leader, During Visit to America, Seeks Dialogue With People’s Republic on the Mainland, Stirs Controversy",
       "country": "USA",
-      "target": null,
-      "timestamp": "2026-06-13 12:00:00",
+      "target": "CHN",
+      "timestamp": "2026-06-13 13:23:46",
       "severity": "medium"
     },
     {
-      "id": "daad56f6fa3979c4526730659ffbb750",
-      "type": "leadership_change",
-      "headline": "Are the Downing Street dominoes about to fall?",
-      "country": "GBR",
-      "target": null,
-      "timestamp": "2026-06-13 11:59:35",
-      "severity": "medium"
-    },
-    {
-      "id": "ff1ff397899488b518a394b3bf7dda88",
-      "type": "leadership_change",
-      "headline": "Pakistan prime minister gives major update on US-Iran peace deal",
-      "country": "GBR",
-      "target": "PAK",
-      "timestamp": "2026-06-13 11:59:00",
-      "severity": "medium"
-    },
-    {
-      "id": "b20e6f5f93a96cca6c1077b76bda6b4e",
+      "id": "f7e9d8ffbebc50f316321c5f0393d015",
       "type": "military_mobilisation",
-      "headline": "Russian Defense Ministry: Ground Advances on Several Fronts, Heavy Losses Inflicted on Ukrainian Forces",
-      "country": "YEM",
-      "target": "RUS",
-      "timestamp": "2026-06-13 11:58:58",
-      "severity": "high"
+      "headline": "Russian troops retain strategic initiative, steadily move forward — Putin",
+      "country": "RUS",
+      "target": "USA",
+      "timestamp": "2026-06-13 13:23:06",
+      "severity": "critical"
+    },
+    {
+      "id": "382f58346fb78c141624ed0c432e27ea",
+      "type": "military_mobilisation",
+      "headline": "US-Iran peace deal inches closer as PM Shehbaz says finalisation expected within a day",
+      "country": "PAK",
+      "target": "USA",
+      "timestamp": "2026-06-13 13:22:58",
+      "severity": "critical"
+    },
+    {
+      "id": "9f56219ebee365c667417cce9ceb8e0d",
+      "type": "leadership_change",
+      "headline": "“US-Iran truce deal likely to be finalised in 24 hours”",
+      "country": "IND",
+      "target": "PAK",
+      "timestamp": "2026-06-13 13:22:25",
+      "severity": "low"
+    },
+    {
+      "id": "6fd2b4aa01297a66c0f53af0dd8e7c72",
+      "type": "diplomacy",
+      "headline": "Divorce and widowhood linked to 14% higher mortality risk in long-term Norwegian study",
+      "country": "BRA",
+      "target": null,
+      "timestamp": "2026-06-13 13:22:21",
+      "severity": "medium"
+    },
+    {
+      "id": "d6650da55af5392fb72c5730e1fa9c37",
+      "type": "diplomacy",
+      "headline": "Yet another AN-32 crash. Replacement of aging fleet planned since mid-2000s could see movement soon",
+      "country": "IND",
+      "target": "USA",
+      "timestamp": "2026-06-13 13:21:06",
+      "severity": "medium"
+    },
+    {
+      "id": "bd2dcfc22549439515cd7dbb05598ad4",
+      "type": "diplomacy",
+      "headline": "Funeral for Iran's late Supreme Leader Ayatollah Ali Khamenei to begin July 4, burial set for July 9",
+      "country": "IND",
+      "target": "IRN",
+      "timestamp": "2026-06-13 13:20:25",
+      "severity": "medium"
+    },
+    {
+      "id": "47b303d211a8351fc01a1947797e68a2",
+      "type": "leadership_change",
+      "headline": "Iran sets July 9 date for burial of late Supreme Leader Ali Khamenei, funeral rites to begin July 4",
+      "country": "IND",
+      "target": "IRN",
+      "timestamp": "2026-06-13 13:20:18",
+      "severity": "low"
     },
     {
       "type": "invasion",
@@ -72,7 +99,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -81,7 +108,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -90,7 +117,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -99,7 +126,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -108,7 +135,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -117,7 +144,7 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -126,7 +153,7 @@
       "severity": "high",
       "headline": "US military operations and sanctions against Iran",
       "id": "known-6",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -135,7 +162,7 @@
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
       "id": "known-7",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "invasion",
@@ -144,7 +171,7 @@
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
       "id": "known-8",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "invasion",
@@ -153,7 +180,7 @@
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
       "id": "known-9",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -162,7 +189,7 @@
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
       "id": "known-10",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -171,7 +198,7 @@
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
       "id": "known-11",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -180,7 +207,7 @@
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
       "id": "known-12",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -189,7 +216,7 @@
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
       "id": "known-13",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -198,7 +225,7 @@
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
       "id": "known-14",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -207,7 +234,7 @@
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
       "id": "known-15",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -216,16 +243,7 @@
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
       "id": "known-16",
-      "timestamp": "2026-06-14T00:00:36.867Z"
-    },
-    {
-      "type": "military_mobilisation",
-      "country": "IND",
-      "target": "PAK",
-      "severity": "medium",
-      "headline": "India–Pakistan border tensions in Kashmir",
-      "id": "known-17",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "military_mobilisation",
@@ -233,8 +251,8 @@
       "target": "GEO",
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
-      "id": "known-18",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-17",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -242,8 +260,8 @@
       "target": "USA",
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
-      "id": "known-19",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-18",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -251,8 +269,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
-      "id": "known-20",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-19",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -260,8 +278,8 @@
       "target": "NOR",
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
-      "id": "known-21",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-20",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -269,8 +287,8 @@
       "target": "USA",
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
-      "id": "known-22",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-21",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -278,8 +296,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "India–Russia oil and energy trade partnership",
-      "id": "known-23",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-22",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -287,8 +305,8 @@
       "target": "CHN",
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
-      "id": "known-24",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-23",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -296,8 +314,8 @@
       "target": "FRA",
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
-      "id": "known-25",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-24",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -305,8 +323,8 @@
       "target": "JPN",
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
-      "id": "known-26",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-25",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -314,8 +332,8 @@
       "target": "CHN",
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
-      "id": "known-27",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-26",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -323,8 +341,8 @@
       "target": "IND",
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
-      "id": "known-28",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-27",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     },
     {
       "type": "trade",
@@ -332,8 +350,8 @@
       "target": "RUS",
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
-      "id": "known-29",
-      "timestamp": "2026-06-14T00:00:36.867Z"
+      "id": "known-28",
+      "timestamp": "2026-06-14T01:25:17.476Z"
     }
   ]
 }
