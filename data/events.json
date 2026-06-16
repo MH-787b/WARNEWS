@@ -1,96 +1,87 @@
 {
-  "updated": "2026-06-16T21:01:59.742Z",
-  "count": 40,
+  "updated": "2026-06-16T21:59:16.003Z",
+  "count": 39,
   "events": [
     {
-      "id": "e6c7ef6aff0c02678fdfe3c74649dfc4",
-      "type": "leadership_change",
-      "headline": "At G7, Starmer vows fresh Russia sanctions, £210 million nuclear energy package for Ukraine",
-      "country": "IND",
+      "id": "3bd30cf81f11e04bb5710b5ae9a14d7e",
+      "type": "trade",
+      "headline": "US-Iran Peace Deal Deepens Divide Between Trump And Netanyahu",
+      "country": "GBR",
+      "target": "IRN",
+      "timestamp": "2026-06-16 09:59:00",
+      "severity": "medium"
+    },
+    {
+      "id": "6b20d73eaa37f3b9d70309ae4b550a38",
+      "type": "diplomacy",
+      "headline": "A Legal Gap in Ukraine: How to Treat Civilians Returning From Occupied Territories",
+      "country": "GBR",
       "target": "UKR",
-      "timestamp": "2026-06-16 09:01:00",
+      "timestamp": "2026-06-16 09:58:59",
+      "severity": "medium"
+    },
+    {
+      "id": "744aeea371066d79c01e0040079123e8",
+      "type": "leadership_change",
+      "headline": "Trump says Iran deal should be successful, reiterates Iran will never have nuclear weapon",
+      "country": "CHE",
+      "target": "LBN",
+      "timestamp": "2026-06-16 09:58:54",
+      "severity": "critical"
+    },
+    {
+      "id": "655e51ad9d7915ba4b6f1051c902cfa1",
+      "type": "leadership_change",
+      "headline": "Prime Minister Carney meets with President of Ukraine Volodymyr Zelenskyy",
+      "country": "CAN",
+      "target": "UKR",
+      "timestamp": "2026-06-16 09:58:39",
+      "severity": "medium"
+    },
+    {
+      "id": "6017aadcc67ab90920679fb19dbee0df",
+      "type": "diplomacy",
+      "headline": "Beirut’s Dahiyeh Strike Reportedly Reshaped Iran-US MoU, Forcing New Lebanon Guarantees",
+      "country": "LBN",
+      "target": "ISR",
+      "timestamp": "2026-06-16 09:58:31",
+      "severity": "critical"
+    },
+    {
+      "id": "3ed5ceaad670309e1583ea0bdd19d356",
+      "type": "military_mobilisation",
+      "headline": "Iran Will Enter Nuclear Talks Feeling Emboldened",
+      "country": "IRN",
+      "target": null,
+      "timestamp": "2026-06-16 09:58:27",
+      "severity": "critical"
+    },
+    {
+      "id": "cb3c1a104e9902625a80e24f1d70853c",
+      "type": "leadership_change",
+      "headline": "G7 Summit Opens in France",
+      "country": "TUR",
+      "target": "FRA",
+      "timestamp": "2026-06-16 09:58:17",
+      "severity": "critical"
+    },
+    {
+      "id": "1a3f81d3d119b43f0b2a9164fc3fc59d",
+      "type": "leadership_change",
+      "headline": "UK Pledges £210 Million to Strengthen Ukraine’s Energy Security",
+      "country": "AFG",
+      "target": "GBR",
+      "timestamp": "2026-06-16 09:58:00",
       "severity": "high"
     },
     {
-      "id": "5e5ce398a3a3f3fde9f6a677d24aebf9",
-      "type": "military_mobilisation",
-      "headline": "NEET 2026 re-exam: Army helicopter to deliver papers amid high security",
-      "country": "IND",
-      "target": null,
-      "timestamp": "2026-06-16 09:01:00",
-      "severity": "medium"
-    },
-    {
-      "id": "1ee6995903a4bb746b3c7ff52d97b327",
-      "type": "leadership_change",
-      "headline": "Trump's endorsement power faces crucial tests in closely watched Georgia and Alabama GOP runoff elections",
-      "country": "GEO",
-      "target": null,
-      "timestamp": "2026-06-16 09:00:55",
-      "severity": "medium"
-    },
-    {
-      "id": "d921887373254dbbaba196ebe110d924",
-      "type": "trade",
-      "headline": "Oil Price Drops, Stocks Soar After Iran Agreement; Skepticism High for Israelis, Dissidents",
-      "country": "ISR",
-      "target": "IRN",
-      "timestamp": "2026-06-16 09:00:40",
-      "severity": "low"
-    },
-    {
-      "id": "97be2c2eed4072985d4b6401fc9bbd2d",
+      "id": "ccda384caa2e91e483714ebd05130308",
       "type": "diplomacy",
-      "headline": "Oil Price Drops, Stocks Soar after Iran Memorandum; Skepticism High among Gulf States, Israelis, Dissidents",
-      "country": "ISR",
-      "target": "IRN",
-      "timestamp": "2026-06-16 09:00:40",
-      "severity": "medium"
-    },
-    {
-      "id": "21e8438a296b1194336a5b74e6628080",
-      "type": "diplomacy",
-      "headline": "Exclusive: Former RCMP officer cleared of allegation he helped China with foreign interference demands answers",
-      "country": "CAN",
-      "target": "CHN",
-      "timestamp": "2026-06-16 09:00:39",
-      "severity": "medium"
-    },
-    {
-      "id": "9fd972a95c5a80b1ba14a2b0e6e1cbb5",
-      "type": "diplomacy",
-      "headline": "US-Iran war's end may shift Europe's credit outlook: Fitch Ratings",
-      "country": "IND",
-      "target": "IRN",
-      "timestamp": "2026-06-16 09:00:29",
+      "headline": "Lebanon faces the end of UN peacekeeping mission: ‘Without the blue helmets there will be more impunity’",
+      "country": "ESP",
+      "target": "LBN",
+      "timestamp": "2026-06-16 09:57:57",
       "severity": "critical"
-    },
-    {
-      "id": "39911a9fb8971041c046e917512001a6",
-      "type": "diplomacy",
-      "headline": "Thanks to Israel, Germany is now an international pariah",
-      "country": "JOR",
-      "target": "DEU",
-      "timestamp": "2026-06-16 09:00:24",
-      "severity": "low"
-    },
-    {
-      "id": "31afc2c04b28458c8d31943008ac7dc6",
-      "type": "diplomacy",
-      "headline": "EU Parliament chief seeks probe into Russia-friendly lawmaker",
-      "country": "ROU",
-      "target": "UKR",
-      "timestamp": "2026-06-16 09:00:22",
-      "severity": "critical"
-    },
-    {
-      "id": "7c1d2d848bd4fa52ce7b2595533f36cf",
-      "type": "diplomacy",
-      "headline": "The removal of Trump’s name from the Kennedy Center is a much-needed act of iconoclasm | Judith Levine",
-      "country": "GBR",
-      "target": null,
-      "timestamp": "2026-06-16 09:00:19",
-      "severity": "medium"
     },
     {
       "type": "invasion",
@@ -99,7 +90,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -108,7 +99,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -117,7 +108,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -126,7 +117,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -135,7 +126,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -144,7 +135,7 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -153,7 +144,7 @@
       "severity": "high",
       "headline": "US military operations and sanctions against Iran",
       "id": "known-6",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -162,7 +153,7 @@
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
       "id": "known-7",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "invasion",
@@ -171,7 +162,7 @@
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
       "id": "known-8",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "invasion",
@@ -180,7 +171,7 @@
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
       "id": "known-9",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -189,7 +180,7 @@
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
       "id": "known-10",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -198,7 +189,7 @@
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
       "id": "known-11",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -207,7 +198,7 @@
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
       "id": "known-12",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -216,7 +207,7 @@
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
       "id": "known-13",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -225,7 +216,7 @@
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
       "id": "known-14",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -234,7 +225,7 @@
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
       "id": "known-15",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -243,7 +234,7 @@
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
       "id": "known-16",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -252,7 +243,7 @@
       "severity": "medium",
       "headline": "India–Pakistan border tensions in Kashmir",
       "id": "known-17",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "military_mobilisation",
@@ -261,7 +252,7 @@
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
       "id": "known-18",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -270,7 +261,7 @@
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
       "id": "known-19",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -279,7 +270,7 @@
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
       "id": "known-20",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -288,7 +279,7 @@
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
       "id": "known-21",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -297,7 +288,7 @@
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
       "id": "known-22",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -306,7 +297,7 @@
       "severity": "medium",
       "headline": "India–Russia oil and energy trade partnership",
       "id": "known-23",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -315,7 +306,7 @@
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
       "id": "known-24",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -324,7 +315,7 @@
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
       "id": "known-25",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -333,7 +324,7 @@
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
       "id": "known-26",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -342,7 +333,7 @@
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
       "id": "known-27",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -351,7 +342,7 @@
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
       "id": "known-28",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     },
     {
       "type": "trade",
@@ -360,7 +351,7 @@
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
       "id": "known-29",
-      "timestamp": "2026-06-16T21:01:59.742Z"
+      "timestamp": "2026-06-16T21:59:16.002Z"
     }
   ]
 }
