@@ -1,51 +1,78 @@
 {
-  "updated": "2026-06-22T22:55:55.355Z",
-  "count": 35,
+  "updated": "2026-06-22T23:29:39.573Z",
+  "count": 38,
   "events": [
     {
-      "id": "a4c4091ba900fa8e08ff1c853d317ef8",
+      "id": "0443eb6f847f3cc5f46c3cd40d512f81",
       "type": "leadership_change",
-      "headline": "Wes Streeting backs Andy Burnham for UK prime minister, drops leadership bid",
-      "country": "PAK",
+      "headline": "Anatomy of a fall: Keir Starmer, from election landslide to precipitous descent",
+      "country": "FRA",
       "target": "GBR",
-      "timestamp": "2026-06-22 10:55:00",
+      "timestamp": "2026-06-22 11:28:55",
       "severity": "medium"
     },
     {
-      "id": "0b7d592252d8c98f2f4291a70b3ce94d",
-      "type": "military_mobilisation",
-      "headline": "UN: Myanmar Military Responsible for Over 700 Civilian Deaths During Election Period",
-      "country": "IND",
-      "target": "MMR",
-      "timestamp": "2026-06-22 10:54:12",
-      "severity": "high"
+      "id": "ec318ff0223fbdca417535c6e74f2e02",
+      "type": "diplomacy",
+      "headline": "Russia discussed Gazprom's sale of NIS stake with Serbia — Kremlin",
+      "country": "RUS",
+      "target": "SRB",
+      "timestamp": "2026-06-22 11:28:42",
+      "severity": "medium"
     },
     {
-      "id": "f02d714453c2b36970f8498f4b757ccf",
+      "id": "5e8af10611c693e29cbf2eac21162251",
       "type": "leadership_change",
-      "headline": "Falkirk and Grangemouth Labour MPs react to PM Keir Starmer resignation",
+      "headline": "AP News Summary at 7:28 a.m. EDT",
       "country": "GBR",
       "target": null,
-      "timestamp": "2026-06-22 10:54:12",
+      "timestamp": "2026-06-22 11:28:34",
       "severity": "medium"
     },
     {
-      "id": "8591148d3520d2a27e6dd27b1d08a586",
+      "id": "0e543d4e497fd376454df56ef604972c",
       "type": "diplomacy",
-      "headline": "Nikolas Farantouris: Cyprus is inseparable from the security of the European Union",
-      "country": "CYP",
-      "target": "TUR",
-      "timestamp": "2026-06-22 10:53:57",
+      "headline": "Baghaei: Technical Teams Continue Working to Follow Up on Details",
+      "country": "YEM",
+      "target": "IRN",
+      "timestamp": "2026-06-22 11:28:25",
       "severity": "medium"
     },
     {
-      "id": "58141f9592a396c6ef2361e5672bacc2",
+      "id": "efe80074d85c760c8db39b9c09d4b080",
       "type": "diplomacy",
-      "headline": "Reuters: Technical Talks Between Iran and the United States Begin in Switzerland on Monday",
-      "country": "JOR",
-      "target": "USA",
-      "timestamp": "2026-06-22 10:53:23",
-      "severity": "low"
+      "headline": "U.S.-Iran Peace Talks Begin in Switzerland Following Landmark Islamabad MOU",
+      "country": "USA",
+      "target": "CHE",
+      "timestamp": "2026-06-22 11:28:15",
+      "severity": "critical"
+    },
+    {
+      "id": "f69ebe01a68251a93c6d9d291de49dd1",
+      "type": "leadership_change",
+      "headline": "Keir Starmer resignation: Top five Labour leaders who could succeed him",
+      "country": "IND",
+      "target": null,
+      "timestamp": "2026-06-22 11:27:59",
+      "severity": "medium"
+    },
+    {
+      "id": "186c5870ea9a8c6318fde373e88da1a1",
+      "type": "military_mobilisation",
+      "headline": "Humiliation For Trump As U.S. Arab Ally Openly Refuses To Fight Iran-Allied Hezbollah In Lebanon",
+      "country": "IND",
+      "target": "LBN",
+      "timestamp": "2026-06-22 11:27:49",
+      "severity": "critical"
+    },
+    {
+      "id": "4771d90fa6eb8c15ed17cddeb69a9995",
+      "type": "leadership_change",
+      "headline": "UK PM Keir Starmer resigns. And, US and Iran agree to roadmap for final deal",
+      "country": "IRN",
+      "target": "GBR",
+      "timestamp": "2026-06-22 11:27:29",
+      "severity": "medium"
     },
     {
       "type": "invasion",
@@ -54,7 +81,7 @@
       "severity": "critical",
       "headline": "Ongoing Russia–Ukraine armed conflict",
       "id": "known-0",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -63,7 +90,7 @@
       "severity": "critical",
       "headline": "Israel–Palestine military operations in Gaza",
       "id": "known-1",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -72,7 +99,7 @@
       "severity": "high",
       "headline": "Israel–Hezbollah cross-border conflict in Lebanon",
       "id": "known-2",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -81,7 +108,7 @@
       "severity": "high",
       "headline": "Israeli military strikes on targets in Syria",
       "id": "known-3",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -90,7 +117,7 @@
       "severity": "high",
       "headline": "Israel–Houthi exchange of strikes via Yemen",
       "id": "known-4",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -99,7 +126,7 @@
       "severity": "high",
       "headline": "Iran–Israel strategic military confrontation",
       "id": "known-5",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -108,7 +135,7 @@
       "severity": "high",
       "headline": "US military operations and sanctions against Iran",
       "id": "known-6",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -117,7 +144,7 @@
       "severity": "high",
       "headline": "US airstrikes on Houthi positions in Yemen",
       "id": "known-7",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "invasion",
@@ -126,7 +153,7 @@
       "severity": "critical",
       "headline": "Sudan civil war — RSF vs SAF armed conflict",
       "id": "known-8",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "invasion",
@@ -135,7 +162,7 @@
       "severity": "critical",
       "headline": "Myanmar civil war — junta vs resistance forces",
       "id": "known-9",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -144,7 +171,7 @@
       "severity": "high",
       "headline": "Ethiopia–Eritrea border tensions persist",
       "id": "known-10",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -153,7 +180,7 @@
       "severity": "high",
       "headline": "Somalia–Ethiopia tensions over Somaliland port deal",
       "id": "known-11",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -162,7 +189,7 @@
       "severity": "high",
       "headline": "DR Congo–Rwanda conflict over M23 militia in eastern DRC",
       "id": "known-12",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -171,7 +198,7 @@
       "severity": "medium",
       "headline": "Pakistan–Afghanistan cross-border military operations",
       "id": "known-13",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -180,7 +207,7 @@
       "severity": "high",
       "headline": "China–Taiwan strait military posturing",
       "id": "known-14",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -189,7 +216,7 @@
       "severity": "medium",
       "headline": "China–Philippines South China Sea territorial disputes",
       "id": "known-15",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -198,7 +225,7 @@
       "severity": "medium",
       "headline": "North Korea–South Korea military standoff",
       "id": "known-16",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -207,7 +234,7 @@
       "severity": "medium",
       "headline": "India–Pakistan border tensions in Kashmir",
       "id": "known-17",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "military_mobilisation",
@@ -216,7 +243,7 @@
       "severity": "medium",
       "headline": "Russia–Georgia tensions over occupied territories",
       "id": "known-18",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "trade",
@@ -225,7 +252,7 @@
       "severity": "medium",
       "headline": "US–China trade war and tariff escalation",
       "id": "known-19",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "trade",
@@ -234,7 +261,7 @@
       "severity": "medium",
       "headline": "US-led economic sanctions on Russia",
       "id": "known-20",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "trade",
@@ -243,7 +270,7 @@
       "severity": "low",
       "headline": "Germany–Norway energy corridor partnership",
       "id": "known-21",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.572Z"
     },
     {
       "type": "trade",
@@ -252,7 +279,7 @@
       "severity": "low",
       "headline": "Japan–US semiconductor supply chain agreement",
       "id": "known-22",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.573Z"
     },
     {
       "type": "trade",
@@ -261,7 +288,7 @@
       "severity": "medium",
       "headline": "India–Russia oil and energy trade partnership",
       "id": "known-23",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.573Z"
     },
     {
       "type": "trade",
@@ -270,7 +297,7 @@
       "severity": "medium",
       "headline": "Australia–China trade disputes over critical minerals",
       "id": "known-24",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.573Z"
     },
     {
       "type": "trade",
@@ -279,7 +306,7 @@
       "severity": "low",
       "headline": "UK–EU post-Brexit trade friction",
       "id": "known-25",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.573Z"
     },
     {
       "type": "trade",
@@ -288,7 +315,7 @@
       "severity": "low",
       "headline": "South Korea–Japan semiconductor export controls",
       "id": "known-26",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.573Z"
     },
     {
       "type": "trade",
@@ -297,7 +324,7 @@
       "severity": "low",
       "headline": "Brazil–China commodity export corridor",
       "id": "known-27",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.573Z"
     },
     {
       "type": "trade",
@@ -306,7 +333,7 @@
       "severity": "low",
       "headline": "Saudi Arabia–India oil supply agreement",
       "id": "known-28",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.573Z"
     },
     {
       "type": "trade",
@@ -315,7 +342,7 @@
       "severity": "medium",
       "headline": "Turkey–Russia energy and trade corridor",
       "id": "known-29",
-      "timestamp": "2026-06-22T22:55:55.354Z"
+      "timestamp": "2026-06-22T23:29:39.573Z"
     }
   ]
 }
